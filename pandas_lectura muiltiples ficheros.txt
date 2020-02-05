@@ -1,0 +1,14 @@
+http://stackoverflow.com/questions/25210819/speeding-up-data-import-function-pandas-and-appending-to-dataframe/25210900#25210900
+
+Don't append DataFrames like that at all (nor start with an empty one), each append is a copy. This will result in a single copy, and constant appending performance. Concat docs are here
+
+Instead:
+
+frames = []
+
+for f in files:
+      frames.append(process_your_file(f))
+
+result = pd.concat(frames)
+-----------------------------------------
+espectros = pd.concat([pd.read_csv(f, usecols=[irr_name]) for f in path_dia.glob('*.csv')], ignore_index=True, axis='columns')

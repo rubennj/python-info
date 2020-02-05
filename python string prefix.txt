@@ -1,0 +1,53 @@
+Prefixes of strings in Python
+=============================
+b'A' solo tiene sentido en 3
+u'A' solo tiene sentido en 2
+r'A'
+
+http://www.pythoncentral.io/encoding-and-decoding-strings-in-python-3-x/
+
+[http://stackoverflow.com/questions/6269765/what-does-the-b-character-do-in-front-of-a-string-literal]
+Python 3.x makes a clear distinction between the types:
+
+str = '...' literals = a sequence of Unicode characters (UTF-16 or UTF-32, depending on how Python was compiled)
+bytes = b'...' literals = a sequence of octets (integers between 0 and 255)
+If you're familiar with Java or C#, think of str as String and bytes as byte[]. If you're familiar with SQL, think of str as NVARCHAR and bytes as BINARY or BLOB. If you're familiar with the Windows registry, think of str as REG_SZ and bytes as REG_BINARY. If you're familiar with C(++), then forget everything you've learned about char and strings, because A CHARACTER IS NOT A BYTE. That idea is long obsolete.
+
+You use str when you want to represent text.
+
+print('???? ????')
+You use bytes when you want to represent low-level binary data like structs.
+
+NaN = struct.unpack('>d', b'\xff\xf8\x00\x00\x00\x00\x00\x00')[0]
+You can encode a str to a bytes object.
+
+>>> '\uFEFF'.encode('UTF-8')
+b'\xef\xbb\xbf'
+But you can't freely mix the two types.
+
+>>> b'\xEF\xBB\xBF' + 'Text with a UTF-8 BOM'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't concat bytes to str
+The b'...' notation is somewhat confusing in that it allows the bytes 0x01-0x7F to be specified with ASCII characters instead of hex numbers.
+
+>>> b'A' == b'\x41'
+True
+But I must emphasize, a character is not a byte.
+
+>>> 'A' == b'A'
+False
+In Python 2.x
+
+Pre-3.0 versions of Python lacked this kind of distinction between text and binary data. Instead, there was:
+
+unicode = u'...' literals = sequence of Unicode characters = 3.x str
+str = '...' literals = sequences of confounded bytes/characters
+Usually text, encoded in some unspecified encoding.
+But also used to represent binary data like struct.pack output.
+In order to ease the 2.x-to-3.x transition, the b'...' literal syntax was backported to Python 2.6, in order to allow distinguishing binary strings (which should be bytes in 3.x) from text strings (which should be str in 3.x). The b prefix does nothing in 2.x, but tells the 2to3 script not to convert it to a Unicode string in 3.x.
+
+So yes, b'...' literals in Python have the same purpose that they do in PHP.
+
+Also, just out of curiosity, are there more symbols than the b and u that do other things?
+The r prefix creates a raw string (e.g., r'\t' is a backslash + t instead of a tab), and triple quotes '''...''' or """...""" allow multi-line string literals.
