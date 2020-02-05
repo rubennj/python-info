@@ -26,7 +26,7 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## GLOSARIO
-Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy).
+Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
 ### Python
 Es un lenguaje. Sintaxis muy parecida a Matlab.
@@ -61,10 +61,8 @@ Es una distribución de Python adecuada al mundo científico con muchas librerí
 	
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
-* Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres). Pero se puede poner todo por defecto con un pequeño fichero de configuración junto con los directorios de path, al igual que Matlab.
-
+* Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres).
 * Si no están ya instaladas, se tienen que instalar desde la linea de comandos de Windows `cmd` con el comando `conda install "nombre_libreria"`. Si no estuviera en los repositorios de Anaconda, habría que instalarlas mediante `conda install conda-forge::"nombre_libreria"` o finalmente con `pip install "nombre_libreria"`. Si no existe como librería, se debería usar directamente como paquete de Python, en un fichero *.py
-
 * Control de librerias: Se pueden actualizar, instalar, desinstalar desde linea de comandos: 'cmd'.p. ej. 'conda update spyder'
 
 Las más usuales son:
