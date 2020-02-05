@@ -1,4 +1,4 @@
-# GLOSARIO y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy)
+# GLOSARIO (y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))
 - PYTHON: es un lenguaje. Sintaxis muy parecida a Matlab.
 	Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
 	El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
@@ -116,19 +116,3 @@ https://realpython.com/python-testing/
 https://docs.python-guide.org/writing/tests/
 
 * Ejemplo: pytest
-
-# Instalar entorno trabajo
-DESCARGAR [Se recomienda descargar la versión más reciente de Anaconda o Miniconda en web: https://www.continuum.io/downloads]
-	- Anaconda (con todas las librerías. Ocupa y tarda bastante en instalar)
-	- Miniconda y luego elegir las librerias a mano (RECOMENDADO)
-
-	Elegir:
-		* Python 3
-		* 32/64 bits
-
-INSTALACION librerias básicas
-	- Abrir linea de comandos (símbolo de sistema) y escribir:
-	conda install pandas numexpr numpy scipy matplotlib spyder xlrd
-
-USAR
-Lanzar Spyder (doble-clic icono telaraña) para poder programar y ejecutar desde un entorno gráfico
