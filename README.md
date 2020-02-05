@@ -1,3 +1,15 @@
+- [GLOSARIO (y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))](#glosario--y-breve-explicaci-n-de-nombres-relacionados-con-los-proyectos-que-sostienen-el-mundo-cient-fico-python--scipy--)
+  * [LIBRERIAS](#librerias)
+- [Listado de links con información útil para Python](#listado-de-links-con-informaci-n--til-para-python)
+  * [CURSOS](#cursos)
+  * [TUTORIALES](#tutoriales)
+  * [HERRAMIENTAS PARA DATOS](#herramientas-para-datos)
+  * [GRAPHING (MATPLOTLIB)](#graphing--matplotlib-)
+  * [HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING](#herramientas-para-codigo---linters--documentation--testing)
+    + [Code syle/quality – PEP8](#code-syle-quality---pep8)
+    + [Documentation – PEP 257](#documentation---pep-257)
+    + [Testing](#testing)
+    
 # GLOSARIO (y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))
 - PYTHON: es un lenguaje. Sintaxis muy parecida a Matlab.
 	Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
