@@ -47,9 +47,10 @@ https://realpython.com/python-pep8/
 https://docs.python-guide.org/writing/style/
 
 * Ejemplo: pycodestyle (comprueba [linter]), autopep8 (cambia [autoformatter])
-Desde consola spyder:
-!autopep8 -i file.py
+> Desde consola spyder:
+```!autopep8 -i file.py
 !autopep8 -i .
+```
 
 ### Documentation – PEP 257
 https://realpython.com/documenting-python-code/
