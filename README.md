@@ -74,12 +74,16 @@ Implementa tipo de dato 'array' que permite operaciones vectoriales, tipo Matlab
 Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque similar, algunas cosas son más claras.
 ### Pandas
 Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis mus simplificada, especialmente interesante para leer datos.
-	p. ej.
-	* mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserdatetime, parse_dates=[[0, 1]], index_col=0, na_values='-')
-		Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos 1ªs columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
+	p. ej.:
+```
+mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserdatetime, parse_dates=[[0, 1]], index_col=0, na_values='-')
+```
+Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos 1ªs columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
 
-	* eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
-		Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
+```eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
+```
+Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
+
 ### PIL/Pillow
 Manipulación de imágenes.
 
