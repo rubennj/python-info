@@ -67,19 +67,19 @@ https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
 https://hub.gke.mybinder.org/user/gestaltrevision-thon_for_visres-ones2sck/notebooks/Part3/Part3_Scientific_Python.ipynb
 https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Paper.pdf
 
-## HERRAMIENTAS
+* Pythonic loops (olvídate de los loops con un índice!)
+https://dbader.org/blog/pythonic-loops
+https://mlwhiz.com/blog/2019/04/22/python_forloops/
+
+## HERRAMIENTAS PARA DATOS
 * Jupyter - Presentar datos+código en vivo
 https://jupyter.org/
+https://mybinder.org/v2/gh/bloomberg/bqplot/stable?filepath=examples/Index.ipynb - Ejemplo en acción
 
 * Dash (by Plot.ly) - Servidor web para presentar datos interactivamente - Galería
 https://dash-gallery.plotly.host/Portal/
 
-* Pythonic loops (olvídate de los loops con i!)
-https://dbader.org/blog/pythonic-loops
-https://mlwhiz.com/blog/2019/04/22/python_forloops/
-
-
-## GRAPHING - MATPLOTLIB
+## GRAPHING (MATPLOTLIB)
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
 *	Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
 *	Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
@@ -89,7 +89,7 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 *	Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
 *	Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 
-## HERRAMIENTAS PARA CODIGO: LINTERS, DOCUMENTATION, TESTING
+## HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING
 (Breve) Listado herramientas
 https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
 
