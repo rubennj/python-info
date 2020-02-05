@@ -1,16 +1,17 @@
 # Información sobre Python
 
 - [GLOSARIO](#glosario)
-  * [PYTHON](#python)
-  * [SPYDER](#spyder)
-  * [IPYTHON](#ipython)
-  * [MINICONDA](#miniconda)
-  * [ANACONDA](#anaconda)
+  * [Python](#python)
+  * [Spyder](#spyder)
+  * [IPython](#ipython)
+  * [Miniconda](#miniconda)
+  * [Anaconda](#anaconda)
 - [LIBRERIAS](#librerias)
-  * [SCIPY](#scipy)
-  * [NUMPY](#numpy)
-  * [MATPLOTLIB](#matplotlib)
-  * [PANDAS](#pandas)
+  * [Scipy](#scipy)
+  * [Numpy](#numpy)
+  * [Matplotlib](#matplotlib)
+  * [Pandas](#pandas)
+  * [PIL/Pillow](#pil-pillow)
 - [Listado de links con información útil para Python](#listado-de-links-con-informaci-n--til-para-python)
   * [CURSOS](#cursos)
   * [TUTORIALES](#tutoriales)
@@ -26,28 +27,30 @@
 ## GLOSARIO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy).
 
-### PYTHON
-es un lenguaje. Sintaxis muy parecida a Matlab.
-	Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
-	El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
-	En su conjunto aun tiene partes que no están tan maduras como Matlab, pero suficiente como para trabajar sin problemas. Otras partes superan con creces a Matlab.	
-	Es un lenguaje basado en scripts. No se tiene que compilar para ejecutarlo, como Matlab cuando se ejecuta en terminal. Se puede ejecutar un script en otro PC muy fácilmente y editarlo de forma instantánea. Especialmente conveniente para controlar tareas automáticas. Matlab tiene que compilarlo y es muy engorroso.
+### Python
+Es un lenguaje. Sintaxis muy parecida a Matlab.
+* Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
+* El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
+* En su conjunto aun tiene partes que no están tan maduras como Matlab, pero suficiente como para trabajar sin problemas. Otras partes superan con creces a Matlab.	
+* Es un lenguaje basado en scripts. No se tiene que compilar para ejecutarlo, como Matlab cuando se ejecuta en terminal. Se puede ejecutar un script en otro PC muy fácilmente y editarlo de forma instantánea. Especialmente conveniente para controlar tareas automáticas. Matlab tiene que compilarlo y es muy engorroso.
+* Se puede ejecutar de forma interactiva, lanzando `python` desde cmd sin ningún parámetro.
+* Se pueden crear ejecutables.
 
-### SPYDER
-es un IDE (Integrated Development Environment), el programa para escribir/ejecutar scripts, manipular datos y depurar código.
-	* Es el que hay que EJECUTAR para trabajar!
+### Spyder
+Es un IDE (Integrated Development Environment), el programa para escribir/ejecutar scripts, manipular datos y depurar código.
+ * Es el que hay que EJECUTAR para trabajar!
 
-### IPYTHON
-es una versión mejorada de la terminal de Python. Básicamente aparece en Spyder como terminal por defecto. Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
+### IPython
+Es una versión mejorada de la terminal de Python. Básicamente aparece en Spyder como terminal por defecto. Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
 
-### MINICONDA
-es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias). Luego mediante el comando `conda install <libreria>` se instala las librerías necesarias *_OPCIÓN RECOMENDADA_*
+### Miniconda
+Es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias). Luego mediante el comando `conda install <libreria>` se instala las librerías necesarias *_OPCIÓN RECOMENDADA_*
 https://docs.conda.io/en/latest/miniconda.html
 	* Ver la última versión en la web!
 	* Hay que elegir Python 2 o 3. Elegir 3, ya que la v. 2 está sin soporte.
 
-### ANACONDA
-es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada.
+### Anaconda
+Es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada, mejor usar miniconda.
 	https://www.anaconda.com/distribution/
 	
 ## LIBRERIAS
@@ -61,24 +64,24 @@ Para procesar, visualizar y representar datos existen librerías "científicas",
 		p. ej. 'conda update spyder'
 
 Las más usuales son:
-### SCIPY
-funciones de cálculo numérico, muchas tienen la misma sintáxis que en Matlab
+### Scipy
+Funciones de cálculo numérico, muchas tienen la misma sintáxis que en Matlab
 	p. ej. trapz()
-### NUMPY
-implementa tipo de dato 'array' que permite operaciones vectoriales, tipo Matlab. No necesita la sintaxis con punto típica de Matlab (.*, ...). Una vez creado (o leido) el objeto Numpy la sintaxis es transparente.
+### Numpy
+Implementa tipo de dato 'array' que permite operaciones vectoriales, tipo Matlab. No necesita la sintaxis con punto típica de Matlab (.*, ...). Una vez creado (o leido) el objeto Numpy la sintaxis es transparente.
 	p. ej. a = b * c, donde b y c son vectores.
-### MATPLOTLIB
-objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque similar, algunas cosas son más claras.
-### PANDAS
-objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis mus simplificada, especialmente interesante para leer datos.
+### Matplotlib
+Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque similar, algunas cosas son más claras.
+### Pandas
+Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis mus simplificada, especialmente interesante para leer datos.
 	p. ej.
 	* mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserdatetime, parse_dates=[[0, 1]], index_col=0, na_values='-')
 		Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos 1ªs columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
 
 	* eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
 		Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
-- PIL/PILLOW
-manipulación de imágenes.
+### PIL/Pillow
+Manipulación de imágenes.
 
 ## Listado de links con información útil para Python
 _El repositorio contiene documentos también útiles_
