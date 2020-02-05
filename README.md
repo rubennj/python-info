@@ -59,9 +59,7 @@ Para procesar, visualizar y representar datos existen librerías "científicas",
 
 * Si no están ya instaladas, se tienen que instalar desde la linea de comandos de Windows `cmd` con el comando `conda install "nombre_libreria"`. Si no estuviera en los repositorios de Anaconda, habría que instalarlas mediante `conda install conda-forge::"nombre_libreria"` o finalmente con `pip install "nombre_libreria"`. Si no existe como librería, se debería usar directamente como paquete de Python, en un fichero *.py
 
-	Control de librerias:
-		Se pueden actualizar, instalar, desinstalar desde linea de comandos: 'cmd'.
-		p. ej. 'conda update spyder'
+* Control de librerias: Se pueden actualizar, instalar, desinstalar desde linea de comandos: 'cmd'.p. ej. 'conda update spyder'
 
 Las más usuales son:
 ### Scipy
@@ -74,15 +72,15 @@ Implementa tipo de dato 'array' que permite operaciones vectoriales, tipo Matlab
 Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque similar, algunas cosas son más claras.
 ### Pandas
 Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis mus simplificada, especialmente interesante para leer datos.
-	p. ej.:
+p. ej.
+* Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos 1ªs columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
 ```
 mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserdatetime, parse_dates=[[0, 1]], index_col=0, na_values='-')
 ```
-Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos 1ªs columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
-
-```eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
+* Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
 ```
-Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
+eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
+```
 
 ### PIL/Pillow
 Manipulación de imágenes.
@@ -111,7 +109,7 @@ https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
 https://hub.gke.mybinder.org/user/gestaltrevision-thon_for_visres-ones2sck/notebooks/Part3/Part3_Scientific_Python.ipynb
 https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Paper.pdf
 
-* Pythonic loops (olvídate de los loops con un índice!)
+* Pythonic loops (olvídate de los loops con índice!)
 https://dbader.org/blog/pythonic-loops
 https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
@@ -125,13 +123,13 @@ https://dash-gallery.plotly.host/Portal/
 
 ### GRAPHING (MATPLOTLIB)
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
-*	Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
-*	Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
-*	Guía oficial (más densa) https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
+* Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
+* Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
+* Guía oficial (más densa) https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
 
 PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizaciones rápidas de DF/Series. Para pulir la gráfica hay que llamar a métodos directamente de MPL.
-*	Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
-*	Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+* Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
+* Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 
 ### HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING
 (Breve) Listado herramientas
