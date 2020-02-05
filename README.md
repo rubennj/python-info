@@ -29,13 +29,13 @@ https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
 ## GRAPHING - MATPLOTLIB
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
-•	Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
-•	Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
-•	Guía oficial (más densa) https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
+*	Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
+*	Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
+*	Guía oficial (más densa) https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
 
 PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizaciones rápidas de DF/Series. Para pulir la gráfica hay que llamar a métodos directamente de MPL.
-•	Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
-•	Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+*	Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
+*	Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 
 ## HERRAMIENTAS PARA CODIGO: LINTERS, DOCUMENTATION, TESTING
 (Breve) Listado herramientas
