@@ -18,9 +18,12 @@ https://realpython.com/
 * Guia Python Científico
 http://scipy-lectures.org/
 
+## HERRAMIENTAS
 * Jupyter - Presentar datos+código en vivo
 https://jupyter.org/
 
+* Dash (by Plot.ly) - Servidor web para presentar datos interactivamente - Galería
+https://dash-gallery.plotly.host/Portal/
 
 * Pythonic loops (olvídate de los loops con i!)
 https://dbader.org/blog/pythonic-loops
