@@ -24,7 +24,8 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## GLOSARIO
-(y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))
+Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy).
+
 ### PYTHON
 es un lenguaje. Sintaxis muy parecida a Matlab.
 	Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
