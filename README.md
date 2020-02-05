@@ -1,18 +1,16 @@
-# Información sobre Python
-
 - [GLOSARIO (y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))](#glosario--y-breve-explicaci-n-de-nombres-relacionados-con-los-proyectos-que-sostienen-el-mundo-cient-fico-python--scipy--)
-  * [LIBRERIAS](##librerias)
-- [Listado de links con información útil para Python](##listado-de-links-con-informaci-n--til-para-python)
-  * [CURSOS](##cursos)
-  * [TUTORIALES](##tutoriales)
-  * [HERRAMIENTAS PARA DATOS](##herramientas-para-datos)
-  * [GRAPHING (MATPLOTLIB)](##graphing--matplotlib-)
-  * [HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING](##herramientas-para-codigo---linters--documentation--testing)
-    + [Code syle/quality – PEP8](##code-syle-quality---pep8)
-    + [Documentation – PEP 257](##documentation---pep-257)
-    + [Testing](##testing)
+  * [LIBRERIAS](#librerias)
+- [Listado de links con información útil para Python](#listado-de-links-con-informaci-n--til-para-python)
+  * [CURSOS](#cursos)
+  * [TUTORIALES](#tutoriales)
+  * [HERRAMIENTAS PARA DATOS](#herramientas-para-datos)
+  * [GRAPHING (MATPLOTLIB)](#graphing--matplotlib-)
+  * [HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING](#herramientas-para-codigo---linters--documentation--testing)
+    + [Code syle/quality – PEP8](#code-syle-quality---pep8)
+    + [Documentation – PEP 257](#documentation---pep-257)
+    + [Testing](#testing)
+
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-    
 ## GLOSARIO (y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))
 - PYTHON: es un lenguaje. Sintaxis muy parecida a Matlab.
 	Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
@@ -33,7 +31,7 @@ https://docs.conda.io/en/latest/miniconda.html
 - ANACONDA: es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada.
 	https://www.anaconda.com/distribution/
 	
-## LIBRERIAS
+### LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
 * Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres). Pero se puede poner todo por defecto con un pequeño fichero de configuración junto con los directorios de path, al igual que Matlab.
 
@@ -58,16 +56,16 @@ Las más usuales son:
 		Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
 - PIL/PILLOW: manipulación de imágenes.
 
-# Listado de links con información útil para Python
+## Listado de links con información útil para Python
 _El repositorio contiene documentos también útiles_
 
 * Nature - Programming: Pick up Python - A powerful programming language with huge community support
 https://www.nature.com/news/programming-pick-up-python-1.16833
 
-## CURSOS
+### CURSOS
 https://www.sololearn.com/Course/Python/ (muy ameno, para aprender haciendo, hay app)
 
-## TUTORIALES
+### TUTORIALES
 * Buen tutorial general 
 https://docs.python-guide.org/
 
@@ -86,7 +84,7 @@ https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Pa
 https://dbader.org/blog/pythonic-loops
 https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
-## HERRAMIENTAS PARA DATOS
+### HERRAMIENTAS PARA DATOS
 * Jupyter - Presentar datos+código en vivo
 https://jupyter.org/
 https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
@@ -94,7 +92,7 @@ https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db28
 * Dash (by Plot.ly) - Servidor web para presentar datos interactivamente - Galería
 https://dash-gallery.plotly.host/Portal/
 
-## GRAPHING (MATPLOTLIB)
+### GRAPHING (MATPLOTLIB)
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
 *	Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
 *	Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
@@ -104,11 +102,11 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 *	Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
 *	Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 
-## HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING
+### HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING
 (Breve) Listado herramientas
 https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
 
-### Code syle/quality – PEP8
+#### Code syle/quality – PEP8
 https://realpython.com/python-code-quality/
 https://realpython.com/python-pep8/
 https://docs.python-guide.org/writing/style/
@@ -120,13 +118,13 @@ https://docs.python-guide.org/writing/style/
 !autopep8 -i .
 ```
 
-### Documentation – PEP 257
+#### Documentation – PEP 257
 https://realpython.com/documenting-python-code/
 https://docs.python-guide.org/writing/documentation/
 
 * Ejemplo: pydocstyle (_comprueba docstring_), docformatter (_formatea docstring_)
 
-### Testing
+#### Testing
 https://realpython.com/python-testing/
 https://docs.python-guide.org/writing/tests/
 
