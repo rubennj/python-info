@@ -4,6 +4,7 @@
   * [Python](#python)
   * [Spyder](#spyder)
   * [IPython](#ipython)
+  * [Conda](#conda)
   * [Miniconda](#miniconda)
   * [Anaconda](#anaconda)
 - [LIBRERIAS](#librerias)
@@ -43,11 +44,16 @@ Es un IDE (Integrated Development Environment), el programa para escribir/ejecut
 ### IPython
 Es una versión mejorada de la terminal de Python. Básicamente aparece en Spyder como terminal por defecto. Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
 
+### Conda
+Gestor de librerías. Permite instalar, quitar, actualizar, listar.
+Mediante el comando `conda install <libreria>` desde `cmd` se instalan las librerías necesarias. 
+
 ### Miniconda
-Es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias). Luego mediante el comando `conda install <libreria>` se instala las librerías necesarias *_OPCIÓN RECOMENDADA_*
+*_OPCIÓN RECOMENDADA_*
+Es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias).
 https://docs.conda.io/en/latest/miniconda.html
-	* Ver la última versión en la web!
-	* Hay que elegir Python 2 o 3. Elegir 3, ya que la v. 2 está sin soporte.
+* Ver la última versión en la web!
+* Hay que elegir Python 2 o 3. Elegir 3, ya que la v. 2 está sin soporte.
 
 ### Anaconda
 Es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada, mejor usar miniconda.
