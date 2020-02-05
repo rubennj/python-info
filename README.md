@@ -46,7 +46,7 @@ https://realpython.com/python-code-quality/
 https://realpython.com/python-pep8/
 https://docs.python-guide.org/writing/style/
 
-* Ejemplo: pycodestyle (comprueba código:linter]), autopep8 (formatea código:autoformatter)
+* Ejemplo: pycodestyle (_comprueba código_), autopep8 (_formatea código_)
 > Desde consola spyder:
 ```
 !autopep8 -i file.py
@@ -57,7 +57,7 @@ https://docs.python-guide.org/writing/style/
 https://realpython.com/documenting-python-code/
 https://docs.python-guide.org/writing/documentation/
 
-* Ejemplo: pydocstyle (check), docformatter (fix)
+* Ejemplo: pydocstyle (_comprueba docstring_), docformatter (_formatea docstring_)
 
 ### Testing
 https://realpython.com/python-testing/
