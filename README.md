@@ -1,15 +1,30 @@
 # Listado de links con información útil para Python
-* El repositorio contiene documentos también útiles
+_El repositorio contiene documentos también útiles_
 
-Nature - Programming: Pick up Python - A powerful programming language with huge community support
+* Nature - Programming: Pick up Python - A powerful programming language with huge community support
 https://www.nature.com/news/programming-pick-up-python-1.16833
 
-pythonic loops
+
+## CURSOS
+https://www.sololearn.com/Course/Python/ (muy ameno, para aprender haciendo, hay app)
+
+## TUTORIALES
+* Buen tutorial general 
+https://docs.python-guide.org/
+
+* Tutoriales temáticos para (casi) todas las características/opciones/librerias del lenguaje
+https://realpython.com/
+
+* Guia Python Científico
+http://scipy-lectures.org/
+
+* Jupyter - Presentar datos+código en vivo
+https://jupyter.org/
+
+
+* Pythonic loops (olvídate de los loops con i!)
 https://dbader.org/blog/pythonic-loops
 https://mlwhiz.com/blog/2019/04/22/python_forloops/
-
-tutorial pandas
-https://realpython.com/pandas-python-explore-dataset/
 
 
 ## GRAPHING - MATPLOTLIB
