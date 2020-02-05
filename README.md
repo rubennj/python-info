@@ -10,19 +10,19 @@
 
 - IPYTHON: es una versión mejorada de la terminal de Python. Básicamente aparece en Spyder como terminal por defecto. Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
 
-- MINICONDA: es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias). *_OPCIÓN RECOMENDADA_*
+- MINICONDA: es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias). Luego mediante el comando `conda install <libreria>` se instala las librerías necesarias *_OPCIÓN RECOMENDADA_*
 https://docs.conda.io/en/latest/miniconda.html
 	* Ver la última versión en la web!
 	* Hay que elegir Python 2 o 3. Elegir 3, ya que la v. 2 está sin soporte.
 
-- ANACONDA: es una distribución de Python adecuada al mundo científico. Contiene Python + librerías "científicas" + Spyder (IDE)
+- ANACONDA: es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada.
 	https://www.anaconda.com/distribution/
 	
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
 * Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres). Pero se puede poner todo por defecto con un pequeño fichero de configuración junto con los directorios de path, al igual que Matlab.
 
-* Si no están ya instaladas en Anaconda, se tienen que instalar desde la linea de comandos de Windows 'cmd' con el comando 'conda install "nombre_libreria"'. Si no estuviera en los repositorios de Anaconda, habría que instalarlas mediante 'pip install "nombre_libreria"'. Si no existe como librería, se debería usar directamente como paquete de Python, en un fichero *.py
+* Si no están ya instaladas, se tienen que instalar desde la linea de comandos de Windows `cmd` con el comando `conda install "nombre_libreria"`. Si no estuviera en los repositorios de Anaconda, habría que instalarlas mediante `conda install conda-forge::"nombre_libreria"` o finalmente con `pip install "nombre_libreria"`. Si no existe como librería, se debería usar directamente como paquete de Python, en un fichero *.py
 
 	Control de librerias:
 		Se pueden actualizar, instalar, desinstalar desde linea de comandos: 'cmd'.
@@ -74,7 +74,7 @@ https://mlwhiz.com/blog/2019/04/22/python_forloops/
 ## HERRAMIENTAS PARA DATOS
 * Jupyter - Presentar datos+código en vivo
 https://jupyter.org/
-https://mybinder.org/v2/gh/bloomberg/bqplot/stable?filepath=examples/Index.ipynb - Ejemplo en acción
+https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
 
 * Dash (by Plot.ly) - Servidor web para presentar datos interactivamente - Galería
 https://dash-gallery.plotly.host/Portal/
