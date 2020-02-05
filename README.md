@@ -10,17 +10,15 @@
 
 - IPYTHON: es una versión mejorada de la terminal de Python. Básicamente aparece en Spyder como terminal por defecto. Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
 
-- ANACONDA: es una distribución de Python adecuada al mundo científico. Contiene Python + librerías "científicas" + Spyder (IDE)
-	Esto es lo cómodo para instalar todo, la distribución es preparada por la empresa Continuum . https://store.continuum.io/cshop/anaconda/
+- MINICONDA: es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias). *_OPCIÓN RECOMENDADA_*
+https://docs.conda.io/en/latest/miniconda.html
 	* Ver la última versión en la web!
-	* Existe también Miniconda, que no contiene paquetes por defecto y hay que instalarlos. Interesante para tener una instalación ligera.
+	* Hay que elegir Python 2 o 3. Elegir 3, ya que la v. 2 está sin soporte.
 
-	Hay que elegir Python 2 o 3. Elegir 3 (>=3.4)
-		* Casi todas las cosas de 2 está en 3, especialmente la parte científica. Python 3 es la versión más moderna y es muy similar a 2.
-	Hay que elegir sistema operativo y versión 32/64 bits.
-*NOTA: Existe también Miniconda que no contiene ninguna librería por defecto, pero se pueden instalar explicitamente solamente las necesarias. Mucho más ligero.
-
-## LIBRERIAS http://docs.continuum.io/anaconda/pkg-docs.html
+- ANACONDA: es una distribución de Python adecuada al mundo científico. Contiene Python + librerías "científicas" + Spyder (IDE)
+	https://www.anaconda.com/distribution/
+	
+## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
 * Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres). Pero se puede poner todo por defecto con un pequeño fichero de configuración junto con los directorios de path, al igual que Matlab.
 
@@ -63,6 +61,11 @@ https://realpython.com/
 
 * Guia Python Científico
 http://scipy-lectures.org/
+
+* Transitioning from MATLAB to Python
+https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
+https://hub.gke.mybinder.org/user/gestaltrevision-thon_for_visres-ones2sck/notebooks/Part3/Part3_Scientific_Python.ipynb
+https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Paper.pdf
 
 ## HERRAMIENTAS
 * Jupyter - Presentar datos+código en vivo
