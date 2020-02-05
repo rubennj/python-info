@@ -1,4 +1,5 @@
-# Listado delinks con información útil para Python
+# Listado de links con información útil para Python
+* El repositorio contiene documentos también útiles
 
 Nature - Programming: Pick up Python - A powerful programming language with huge community support
 https://www.nature.com/news/programming-pick-up-python-1.16833
