@@ -30,7 +30,7 @@ https://realpython.com/python-code-quality/
 https://realpython.com/python-pep8/
 https://docs.python-guide.org/writing/style/
 
-*Ejemplo: pycodestyle (comprueba [linter]), autopep8 (cambia [autoformatter])
+* Ejemplo: pycodestyle (comprueba [linter]), autopep8 (cambia [autoformatter])
 Desde consola spyder:
 !autopep8 -i file.py
 !autopep8 -i .
@@ -39,10 +39,10 @@ Desde consola spyder:
 https://realpython.com/documenting-python-code/
 https://docs.python-guide.org/writing/documentation/
 
-*Ejemplo: pydocstyle (check), docformatter (fix)
+* Ejemplo: pydocstyle (check), docformatter (fix)
 
 ### Testing
 https://realpython.com/python-testing/
 https://docs.python-guide.org/writing/tests/
 
-*Ejemplo: pytest
+* Ejemplo: pytest
