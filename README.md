@@ -1,6 +1,6 @@
 # Información sobre Python
 
-- [GLOSARIO (y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))](##glosario--y-breve-explicaci-n-de-nombres-relacionados-con-los-proyectos-que-sostienen-el-mundo-cient-fico-python--scipy--)
+- [GLOSARIO (y breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy))](#glosario--y-breve-explicaci-n-de-nombres-relacionados-con-los-proyectos-que-sostienen-el-mundo-cient-fico-python--scipy--)
   * [LIBRERIAS](##librerias)
 - [Listado de links con información útil para Python](##listado-de-links-con-informaci-n--til-para-python)
   * [CURSOS](##cursos)
