@@ -1,7 +1,7 @@
 # Información sobre Python
 
 - [GLOSARIO](#glosario)
-  * [Python](#python----cheatsheet--python-cheatsheet-mementopython3-englishpdf-)[cheatsheet(python-cheatsheet_mementopython3-english.pdf)]
+  * [Python](#python----cheatsheet--python-cheatsheet-mementopython3-englishpdf-) - [[cheatsheet]](python-cheatsheet_mementopython3-english.pdf)
   * [Spyder](#spyder)
   * [IPython](#ipython)
   * [Conda](#conda)
