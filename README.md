@@ -162,3 +162,6 @@ https://realpython.com/python-testing/
 https://docs.python-guide.org/writing/tests/
 
 * Ejemplo: pytest
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTY5MTUyNjQxXX0=
+-->
