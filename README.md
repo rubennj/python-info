@@ -29,7 +29,7 @@
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
 ### Python
-[cheatsheet](../blob/master/python-cheatsheet - mementopython3-english.pdf)
+[cheatsheet](./python-cheatsheet - mementopython3-english.pdf)
 Es un lenguaje. Sintaxis muy parecida a Matlab.
 * Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
 * El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
@@ -40,7 +40,7 @@ Es un lenguaje. Sintaxis muy parecida a Matlab.
 
 ### Spyder
 Es un IDE (Integrated Development Environment), el programa para escribir/ejecutar scripts, manipular datos y depurar código.
- * Es el que hay que EJECUTAR para trabajar!
+* Es el que hay que EJECUTAR para trabajar!
 
 ### IPython
 Es una versión mejorada de la terminal de Python. Básicamente aparece en Spyder como terminal por defecto. Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
@@ -58,7 +58,7 @@ https://docs.conda.io/en/latest/miniconda.html
 
 ### Anaconda
 Es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada, mejor usar miniconda.
-	https://www.anaconda.com/distribution/
+https://www.anaconda.com/distribution/
 	
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
