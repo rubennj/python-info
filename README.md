@@ -1,7 +1,7 @@
 # Información sobre Python
 
 - [GLOSARIO](#glosario)
-  * [Python](#python)
+  * [Python](#python-cheatsheet)
   * [Spyder](#spyder)
   * [IPython](#ipython)
   * [Conda](#conda)
