@@ -1,7 +1,7 @@
 # Información sobre Python
 
 - [GLOSARIO](#glosario)
-  * [Python](#python)
+  * [Python - [cheatsheet](python-cheatsheet_mementopython3-english.pdf)](#python----cheatsheet--python-cheatsheet-mementopython3-englishpdf-)
   * [Spyder](#spyder)
   * [IPython](#ipython)
   * [Conda](#conda)
@@ -28,9 +28,8 @@
 ## GLOSARIO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
-### Python
-[cheatsheet](python-cheatsheet_mementopython3-english.pdf)
-Es un lenguaje. Sintaxis muy parecida a Matlab.
+### Python - [cheatsheet](python-cheatsheet_mementopython3-english.pdf)
+Es el lenguaje. Sintaxis muy parecida a Matlab.
 * Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
 * El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
 * En su conjunto aun tiene partes que no están tan maduras como Matlab, pero suficiente como para trabajar sin problemas. Otras partes superan con creces a Matlab.	
