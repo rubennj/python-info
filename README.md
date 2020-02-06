@@ -28,7 +28,7 @@
 ## GLOSARIO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
-### Python
+### Python 
 Es un lenguaje. Sintaxis muy parecida a Matlab.
 * Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
 * El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
@@ -163,5 +163,5 @@ https://docs.python-guide.org/writing/tests/
 
 * Ejemplo: pytest
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MTUyNjQxXX0=
+eyJoaXN0b3J5IjpbLTI5MjM2NzE4N119
 -->
