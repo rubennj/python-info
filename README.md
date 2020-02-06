@@ -13,13 +13,13 @@
   * [Matplotlib](#matplotlib)
   * [Pandas](#pandas)
   * [PIL/Pillow](#pil-pillow)
-- [Listado de links con información útil para Python](#listado-de-links-con-informaci-n--til-para-python)
-  * [CURSOS](#cursos)
-  * [TUTORIALES](#tutoriales)
-  * [HERRAMIENTAS PARA DATOS](#herramientas-para-datos)
-  * [GRAPHING (MATPLOTLIB)](#graphing--matplotlib-)
-  * [HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING](#herramientas-para-codigo---linters--documentation--testing)
-    + [Code syle/quality – PEP8](#code-syle-quality---pep8)
+- [RECURSOS ON-LINE](#recursos-on-line)
+  * [Cursos](#cursos)
+  * [Tutoriales](#tutoriales)
+  * [Herramientas para datos](#herramientas-para-datos)
+  * [Graphing (Matplotlib)](#graphing--matplotlib-)
+  * [Herramientas para codigo](#herramientas-para-codigo)
+    + [Linters - Code syle/quality – PEP8](#linters---code-syle-quality---pep8)
     + [Documentation – PEP 257](#documentation---pep-257)
     + [Testing](#testing)
 
@@ -28,7 +28,8 @@
 ## GLOSARIO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
-### Python 
+### Python
+[cheatsheet](python-cheatsheet - mementopython3-english.pdf)
 Es un lenguaje. Sintaxis muy parecida a Matlab.
 * Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
 * El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
@@ -89,16 +90,16 @@ eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='
 ### PIL/Pillow
 Manipulación de imágenes.
 
-## Listado de links con información útil para Python
-_El repositorio contiene documentos también útiles_
+## RECURSOS ON-LINE
+Listado de links con información útil para Python. _El repositorio contiene documentos también útiles_
 
 * Nature - Programming: Pick up Python - A powerful programming language with huge community support
 https://www.nature.com/news/programming-pick-up-python-1.16833
 
-### CURSOS
+### Cursos
 https://www.sololearn.com/Course/Python/ (muy ameno, para aprender haciendo, hay app)
 
-### TUTORIALES
+### Tutoriales
 * Buen tutorial general 
 https://docs.python-guide.org/
 
@@ -117,15 +118,16 @@ https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Pa
 https://dbader.org/blog/pythonic-loops
 https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
-### HERRAMIENTAS PARA DATOS
+### Herramientas para datos
 * Jupyter - Presentar datos+código en vivo
 https://jupyter.org/
 https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
+https://github.com/losc-tutorial/quickview - Repositorio con Jupyter notebook sobre gravitational waves
 
 * Dash (by Plot.ly) - Servidor web para presentar datos interactivamente - Galería
 https://dash-gallery.plotly.host/Portal/
 
-### GRAPHING (MATPLOTLIB)
+### Graphing (Matplotlib)
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
 * Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
 * Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
@@ -135,11 +137,11 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 * Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
 * Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 
-### HERRAMIENTAS PARA CODIGO - LINTERS, DOCUMENTATION, TESTING
+### Herramientas para codigo
 (Breve) Listado herramientas
 https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
 
-#### Code syle/quality – PEP8
+#### Linters - Code syle/quality – PEP8
 https://realpython.com/python-code-quality/
 https://realpython.com/python-pep8/
 https://docs.python-guide.org/writing/style/
@@ -162,6 +164,3 @@ https://realpython.com/python-testing/
 https://docs.python-guide.org/writing/tests/
 
 * Ejemplo: pytest
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjM2NzE4N119
--->
