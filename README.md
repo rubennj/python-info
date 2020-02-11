@@ -19,8 +19,8 @@
   * [Herramientas para datos](#herramientas-para-datos)
   * [Graphing (Matplotlib)](#graphing--matplotlib-)
   * [Herramientas para codigo](#herramientas-para-codigo)
-    + [Linters - Code syle/quality – PEP8](#linters---code-syle-quality---pep8)
-    + [Documentation – PEP 257](#documentation---pep-257)
+    + [Linters - Code syle/quality – PEP8](#linters---code-sylequality--pep8)
+    + [Documentation – PEP 257](#documentation--pep-257)
     + [Testing](#testing)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
