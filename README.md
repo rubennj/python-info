@@ -22,6 +22,7 @@
     + [Linters - Code syle/quality – PEP8](#linters---code-sylequality--pep8)
     + [Documentation – PEP 257](#documentation--pep-257)
     + [Testing](#testing)
+    + [Refactoring](#refactoring)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -163,3 +164,7 @@ https://realpython.com/python-testing/
 https://docs.python-guide.org/writing/tests/
 
 * Ejemplo: pytest
+
+#### Refactoring
+No es realmente una herramienta si no una buena práctica. La idea es limpiar y mejorar la legibilidad del código, muchas veces reordenándolo.
+https://realpython.com/python-refactoring/
