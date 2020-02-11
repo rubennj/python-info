@@ -166,5 +166,5 @@ https://docs.python-guide.org/writing/tests/
 * Ejemplo: pytest
 
 #### Refactoring
-No es realmente una herramienta si no una buena práctica. La idea es limpiar y mejorar la legibilidad del código, muchas veces reordenándolo.
+No es realmente una herramienta si no una buena práctica. La idea es limpiar y mejorar la legibilidad del código, muchas veces reordenándolo.\
 https://realpython.com/python-refactoring/
