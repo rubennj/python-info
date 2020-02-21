@@ -1,5 +1,5 @@
 - [GLOSARIO](#glosario)
-  * [Python [[cheatsheet]](python-cheatsheet_mementopython3-english.pdf)](#python---cheatsheet---python-cheatsheet-mementopython3-englishpdf-)
+  * [Python](#python-cheatsheet)
   * [Spyder](#spyder)
   * [IPython](#ipython)
   * [Conda](#conda)
