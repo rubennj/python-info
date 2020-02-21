@@ -1,3 +1,5 @@
+# Información sobre Python
+
 - [GLOSARIO](#glosario)
   * [Python](#python-cheatsheet)
   * [Spyder](#spyder)
