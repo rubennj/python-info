@@ -1,7 +1,5 @@
-# Información sobre Python
-
 - [GLOSARIO](#glosario)
-  * [Python](#python-cheatsheet)
+  * [Python [[cheatsheet]](python-cheatsheet_mementopython3-english.pdf)](#python---cheatsheet---python-cheatsheet-mementopython3-englishpdf-)
   * [Spyder](#spyder)
   * [IPython](#ipython)
   * [Conda](#conda)
@@ -17,10 +15,13 @@
   * [Cursos](#cursos)
   * [Tutoriales](#tutoriales)
   * [Herramientas para datos](#herramientas-para-datos)
+    + [Jupyter](#jupyter)
+    + [Binder](#binder)
+    + [Dash](#dash)
   * [Graphing (Matplotlib)](#graphing--matplotlib-)
   * [Herramientas para codigo](#herramientas-para-codigo)
-    + [Linters - Code syle/quality – PEP8](#linters---code-sylequality--pep8)
-    + [Documentation – PEP 257](#documentation--pep-257)
+    + [Linters - Code syle/quality – PEP8](#linters---code-syle-quality---pep8)
+    + [Documentation – PEP 257](#documentation---pep-257)
     + [Testing](#testing)
     + [Refactoring](#refactoring)
 
@@ -119,13 +120,23 @@ https://dbader.org/blog/pythonic-loops
 https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
 ### Herramientas para datos
-* Jupyter - Presentar datos+código en vivo
+#### Jupyter
+* Presentar datos+código en vivo.
+* IDE en web. Dos versiones: _classic_ y _lab_
+* Basado en ficheros notebook (.ipynb)
 https://jupyter.org/
 https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
 https://github.com/losc-tutorial/quickview - Repositorio con Jupyter notebook sobre gravitational waves
 
-* Dash (by Plot.ly) - Servidor web para presentar datos interactivamente - Galería
-https://dash-gallery.plotly.host/Portal/
+#### Binder
+* Crea espacio de trabajo en un servidor remoto para ejectuar en vivo Jupyter notebooks, sin necesidad de instalación local.
+* Un repositorio tipo GitHub se puede convertir en un espacio de trabajo ejecutable.
+https://jupyter.org/binder - Información
+https://mybinder.org/ - Web app para lanzarlo
+
+#### Dash
+Servidor web para presentar datos interactivamente (by Plot.ly)
+https://dash-gallery.plotly.host/Portal/ (Galería)
 
 ### Graphing (Matplotlib)
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
