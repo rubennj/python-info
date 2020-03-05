@@ -81,7 +81,7 @@ Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque simil
 ### Pandas
 Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis mus simplificada, especialmente interesante para leer datos.
 p. ej.
-* Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos 1ªs columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
+* Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos primeras columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
 ```
 mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserdatetime, parse_dates=[[0, 1]], index_col=0, na_values='-')
 ```
