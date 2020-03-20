@@ -185,6 +185,6 @@ No es realmente una herramienta si no una buena práctica. La idea es limpiar y 
 https://realpython.com/python-refactoring/
 
 #### GitHub
-Repositorio distribuido para código y datos.
-https://guides.github.com/activities/hello-world/
-https://www.edureka.co/blog/how-to-use-github/
+Repositorio distribuido para código y datos.\
+10 min tutorial https://guides.github.com/activities/hello-world/
+Tutorial https://www.edureka.co/blog/how-to-use-github/
