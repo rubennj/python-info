@@ -27,6 +27,7 @@
     + [Testing](#testing)
     + [Refactoring](#refactoring)
     + [GitHub](#github)
+      - [pre-commit](#-pre-commit)
     + [Argparse](#argparse)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -186,11 +187,13 @@ No es realmente una herramienta si no una buena práctica. La idea es limpiar y 
 https://realpython.com/python-refactoring/
 
 #### GitHub
-Repositorio distribuido para código y datos.\
-10 min tutorial https://guides.github.com/activities/hello-world/ \
-Tutorial https://www.edureka.co/blog/how-to-use-github/
+Repositorio distribuido para código y datos. Utilizar herramienta [`GitHub Desktop`](https://desktop.github.com/) para sincronizar repositorio local y remoto.
+* 10 min tutorial https://guides.github.com/activities/hello-world/
+* Tutorial https://www.edureka.co/blog/how-to-use-github/
+> ##### [pre-commit](https://pre-commit.com/)
+> Antes de formalizar un `commit` se pueden ejecutar tareas tales como un linter para formatear el código.
 
 #### Argparse
-Librería estándar para crear CLI (Command Line Interface)\
-Tutorial https://realpython.com/command-line-interfaces-python-argparse \
-Ejemplo código ISI https://github.com/isi-ies-group/scripts-servidor_helios/blob/master/genera_fichero_meteo.py
+Librería estándar para crear CLI (Command Line Interface)
+* Tutorial https://realpython.com/command-line-interfaces-python-argparse
+* Ejemplo código ISI https://github.com/isi-ies-group/scripts-servidor_helios/blob/master/genera_fichero_meteo.py
