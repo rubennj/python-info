@@ -27,7 +27,7 @@
     + [Testing](#testing)
     + [Refactoring](#refactoring)
     + [GitHub](#github)
-      - [pre-commit](#-pre-commit)
+      - [pre-commit](#pre-commit)
     + [Argparse](#argparse)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -190,8 +190,8 @@ https://realpython.com/python-refactoring/
 Repositorio distribuido para código y datos. Utilizar herramienta [`GitHub Desktop`](https://desktop.github.com/) para sincronizar repositorio local y remoto.
 * 10 min tutorial https://guides.github.com/activities/hello-world/
 * Tutorial https://www.edureka.co/blog/how-to-use-github/
-> ##### [pre-commit](https://pre-commit.com/)
-> Antes de formalizar un `commit` se pueden ejecutar tareas tales como un linter para formatear el código.
+> ##### pre-commit
+> Antes de formalizar un `commit` [pre-commit](https://pre-commit.com/) ejecuta automáticamente tareas tales como un linter para formatear el código.
 
 #### Argparse
 Librería estándar para crear CLI (Command Line Interface)
