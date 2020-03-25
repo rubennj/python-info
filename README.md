@@ -187,10 +187,10 @@ https://realpython.com/python-refactoring/
 
 #### GitHub
 Repositorio distribuido para código y datos.\
-10 min tutorial https://guides.github.com/activities/hello-world/
+10 min tutorial https://guides.github.com/activities/hello-world/ \
 Tutorial https://www.edureka.co/blog/how-to-use-github/
 
 #### Argparse
-Librería estándar para crear CLI (Command Line Interface)
-Tutorial https://realpython.com/command-line-interfaces-python-argparse/
+Librería estándar para crear CLI (Command Line Interface)\
+Tutorial https://realpython.com/command-line-interfaces-python-argparse \
 Ejemplo código ISI https://github.com/isi-ies-group/scripts-servidor_helios/blob/master/genera_fichero_meteo.py
