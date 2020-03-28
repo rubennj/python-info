@@ -168,9 +168,7 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 * https://docs.python-guide.org/writing/style/
 
 * Ejemplo: pycodestyle (_comprueba código_), autopep8 (_formatea código_)
-> Desde consola spyder:
-> `!autopep8 -i file.py`
-> `!autopep8 -i .`
+> Desde consola spyder: `!autopep8 -i file.py` o `!autopep8 -i .`
 
 #### Documentation – PEP 257
 * https://realpython.com/documenting-python-code/
@@ -183,8 +181,7 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 * https://docs.python-guide.org/writing/tests/
 
 * Ejemplo: pytest
-> Desde consola spyder:
-> `!pytest .`
+> Desde consola spyder: `!pytest .`
 
 #### Refactoring
 No es realmente una herramienta si no una buena práctica. La idea es limpiar y mejorar la legibilidad del código, muchas veces reordenándolo.\
