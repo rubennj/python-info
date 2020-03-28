@@ -28,6 +28,7 @@
     + [Refactoring](#refactoring)
     + [GitHub](#github)
       - [pre-commit](#pre-commit)
+      - [.gitignore](#gitignore)
     + [Argparse](#argparse)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -198,6 +199,7 @@ Repositorio distribuido para código y datos. Utilizar herramienta [`GitHub Desk
 
 > ##### .gitignore
 > Para evitar sincronizar ciertos archivos hay que rellenar el fichero `.gitignore`. Ver https://swcarpentry.github.io/git-novice-es/06-ignore/
+> Si ya se han sincronizado previamente, usar `git rm -r --cached [file]`
 
 #### Argparse
 Librería estándar para crear CLI (Command Line Interface)
