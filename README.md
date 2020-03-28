@@ -104,7 +104,10 @@ Listado de links con información útil para Python. _El repositorio contiene do
 https://www.nature.com/news/programming-pick-up-python-1.16833
 
 ### Cursos
-https://www.sololearn.com/Course/Python/ (muy ameno, para aprender haciendo, hay app)
+* Curso muy ameno, para aprender el legnuaje Python haciendo, hay app
+https://www.sololearn.com/Course/Python/
+* Software Carpentry realiza talleres sobre programación y publican el material
+https://software-carpentry.org/lessons/index.html
 
 ### Tutoriales
 * Buen tutorial general 
@@ -117,28 +120,28 @@ https://realpython.com/
 http://scipy-lectures.org/
 
 * Transitioning from MATLAB to Python
-https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
-https://hub.gke.mybinder.org/user/gestaltrevision-thon_for_visres-ones2sck/notebooks/Part3/Part3_Scientific_Python.ipynb
-https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Paper.pdf
+1. https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
+2. https://hub.gke.mybinder.org/user/gestaltrevision-thon_for_visres-ones2sck/notebooks/Part3/Part3_Scientific_Python.ipynb
+3. https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Paper.pdf
 
 * Pythonic loops (olvídate de los loops con índice!)
-https://dbader.org/blog/pythonic-loops
-https://mlwhiz.com/blog/2019/04/22/python_forloops/
+1. https://dbader.org/blog/pythonic-loops
+2. https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
 ### Herramientas para datos
 #### Jupyter
 * Presentar datos+código en vivo.
 * IDE en web. Dos versiones: _classic_ y _lab_
 * Basado en ficheros notebook (.ipynb)
-https://jupyter.org/
-https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
-https://github.com/losc-tutorial/quickview - Repositorio con Jupyter notebook sobre gravitational waves
+1. https://jupyter.org/
+2. https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
+3. https://github.com/losc-tutorial/quickview - Repositorio con Jupyter notebook sobre gravitational waves
 
 #### Binder
 * Crea espacio de trabajo en un servidor remoto para ejectuar en vivo Jupyter notebooks, sin necesidad de instalación local.
 * Un repositorio tipo GitHub se puede convertir en un espacio de trabajo ejecutable.
-https://jupyter.org/binder - Información
-https://mybinder.org/ - Web app para lanzarlo
+1. https://jupyter.org/binder - Información
+2. https://mybinder.org/ - Web app para lanzarlo
 
 #### Dash
 Servidor web para presentar datos interactivamente (by Plot.ly)
@@ -155,13 +158,13 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 * Guía oficial (más densa) https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 
 ### Herramientas para codigo
-(Breve) Listado herramientas
-https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
+* (Breve) Listado herramientas https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
+* Sitio con cursos https://software-carpentry.org/lessons/index.html
 
 #### Linters - Code syle/quality – PEP8
-https://realpython.com/python-code-quality/
-https://realpython.com/python-pep8/
-https://docs.python-guide.org/writing/style/
+* https://realpython.com/python-code-quality/
+* https://realpython.com/python-pep8/
+* https://docs.python-guide.org/writing/style/
 
 * Ejemplo: pycodestyle (_comprueba código_), autopep8 (_formatea código_)
 > Desde consola spyder:
@@ -171,14 +174,14 @@ https://docs.python-guide.org/writing/style/
 ```
 
 #### Documentation – PEP 257
-https://realpython.com/documenting-python-code/
-https://docs.python-guide.org/writing/documentation/
+* https://realpython.com/documenting-python-code/
+* https://docs.python-guide.org/writing/documentation/
 
 * Ejemplo: pydocstyle (_comprueba docstring_), docformatter (_formatea docstring_)
 
 #### Testing
-https://realpython.com/python-testing/
-https://docs.python-guide.org/writing/tests/
+* https://realpython.com/python-testing/
+* https://docs.python-guide.org/writing/tests/
 
 * Ejemplo: pytest
 
@@ -192,6 +195,9 @@ Repositorio distribuido para código y datos. Utilizar herramienta [`GitHub Desk
 * Tutorial https://www.edureka.co/blog/how-to-use-github/
 > ##### pre-commit
 > Antes de formalizar un `commit` [pre-commit](https://pre-commit.com/) ejecuta automáticamente tareas tales como un linter para formatear el código.
+
+> ##### .gitignore
+> Para evitar sincronizar ciertos archivos hay que rellenar el fichero `.gitignore`. Ver https://swcarpentry.github.io/git-novice-es/06-ignore/
 
 #### Argparse
 Librería estándar para crear CLI (Command Line Interface)
