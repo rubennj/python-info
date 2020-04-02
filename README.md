@@ -22,8 +22,8 @@
     + [Dash](#dash)
   * [Graphing (Matplotlib)](#graphing--matplotlib-)
   * [Herramientas para codigo](#herramientas-para-codigo)
-    + [Linters - Code syle/quality – PEP8](#linters---code-syle-quality---pep8)
-    + [Documentation – PEP 257](#documentation---pep-257)
+    + [Linters - Code syle/quality](#linters---code-syle-quality)
+    + [Documentation](#documentation)
     + [Testing](#testing)
     + [Refactoring](#refactoring)
     + [GitHub](#github)
@@ -162,7 +162,8 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 * (Breve) Listado herramientas https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
 * Sitio con cursos https://software-carpentry.org/lessons/index.html
 
-#### Linters - Code syle/quality – PEP8
+#### Linters - Code syle/quality
+PEP8
 * https://realpython.com/python-code-quality/
 * https://realpython.com/python-pep8/
 * https://docs.python-guide.org/writing/style/
@@ -170,7 +171,8 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 * Ejemplo: pycodestyle (_comprueba código_), autopep8 (_formatea código_)
 > Desde consola spyder: `!autopep8 -i file.py` o `!autopep8 -i .`
 
-#### Documentation – PEP 257
+#### Documentation
+PEP 257
 * https://realpython.com/documenting-python-code/
 * https://docs.python-guide.org/writing/documentation/
 
