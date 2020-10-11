@@ -204,3 +204,9 @@ Repositorio distribuido para código y datos. Utilizar herramienta [`GitHub Desk
 Librería estándar para crear CLI (Command Line Interface)
 * Tutorial https://realpython.com/command-line-interfaces-python-argparse
 * Ejemplo código ISI https://github.com/isi-ies-group/scripts-servidor_helios/blob/master/genera_fichero_meteo.py
+
+#### Archivo Config
+Archivo externo adicional que incluye información de configuración a leer (parsear) por una librería.
+* `configparser` librería estándar para ficheros `.ini`
+* `pyaml` librería externa para ficheros `.yaml`
+* Vistazo a varios tipos https://hackersandslackers.com/simplify-your-python-projects-configuration/
