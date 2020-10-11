@@ -77,13 +77,13 @@ Las más usuales son:
 ### Scipy
 Funciones de cálculo numérico, muchas tienen la misma sintáxis que en Matlab
 	p. ej. trapz()
-### Numpy
+### Numpy [[cheatsheet]](Numpy_Python_Cheat_Sheet.pdf)
 Implementa tipo de dato 'array' que permite operaciones vectoriales, tipo Matlab. No necesita la sintaxis con punto típica de Matlab (.*, ...). Una vez creado (o leido) el objeto Numpy la sintaxis es transparente.
 	p. ej. a = b * c, donde b y c son vectores.
-### Matplotlib
+### Matplotlib [[cheatsheet]](matplotlib cheatsheets.pdf)
 Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque similar, algunas cosas son más claras.
-### Pandas
-Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis mus simplificada, especialmente interesante para leer datos.
+### Pandas [[cheatsheet]](Pandas_Cheat_Sheet.pdf)
+Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis muy intuitiva y simplificada, especialmente interesante para leer datos.
 p. ej.
 * Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos primeras columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
 ```
