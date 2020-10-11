@@ -30,6 +30,7 @@
       - [pre-commit](#pre-commit)
       - [.gitignore](#gitignore)
     + [Argparse](#argparse)
+    + [Archivo Config](#archivo-config)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
