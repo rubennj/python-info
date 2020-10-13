@@ -194,6 +194,7 @@ https://realpython.com/python-refactoring/
 Repositorio distribuido para código y datos. Utilizar herramienta [`GitHub Desktop`](https://desktop.github.com/) para sincronizar repositorio local y remoto.
 * 10 min tutorial https://guides.github.com/activities/hello-world/
 * Tutorial https://www.edureka.co/blog/how-to-use-github/
+* Introdución a GitHub https://github.com/oscarperpinan/intro_github
 > ##### pre-commit
 > Antes de formalizar un `commit` [pre-commit](https://pre-commit.com/) ejecuta automáticamente tareas tales como un linter para formatear el código.
 
