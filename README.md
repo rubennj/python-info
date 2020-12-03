@@ -106,7 +106,7 @@ Listado de links con información útil para Python. _El repositorio contiene do
 https://www.nature.com/news/programming-pick-up-python-1.16833
 
 ### Cursos
-* Curso muy ameno, para aprender el legnuaje Python haciendo, hay app
+* Curso muy ameno, para aprender el lenguaje Python haciendo, hay app
 https://www.sololearn.com/Course/Python/
 * Software Carpentry realiza talleres sobre programación y publican el material
 https://software-carpentry.org/lessons/index.html
