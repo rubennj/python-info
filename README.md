@@ -213,6 +213,13 @@ Librería estándar para crear CLI (Command Line Interface)
 
 #### Archivo Config
 Archivo externo adicional que incluye información de configuración a leer (parsear) por una librería.
-* `configparser` librería estándar para ficheros `.ini`
-* `pyaml` librería externa para ficheros `.yaml`
 * Vistazo a varios tipos https://hackersandslackers.com/simplify-your-python-projects-configuration/
+* `configparser` librería estándar para ficheros `.ini`
+> Ejemplo código ISI https://github.com/isi-ies-group/meteocheck/blob/master/meteocheck/meteocheck_meteo_stations_example.ini
+* `pyaml` librería externa para ficheros `.yaml`
+> Ejemplo código ISI https://github.com/isi-ies-group/pygeonica/blob/master/pygeonica/pygeonica_config.yaml
+
+### Packaging (crear librerías)
+Generar paquetes de Python, para instalar desde `pip`
+* Tutorial https://python-packaging.readthedocs.io/
+* Incluso se puede instalar desde un repositorio: `pip install --upgrade git+https://github.com/isi-ies-group/cpvlib.git`
