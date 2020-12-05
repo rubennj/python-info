@@ -31,6 +31,7 @@
       - [.gitignore](#gitignore)
     + [Argparse](#argparse)
     + [Archivo Config](#archivo-config)
+    + [Packaging](#packaging-crear-librerías)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -215,9 +216,9 @@ Librería estándar para crear CLI (Command Line Interface)
 Archivo externo adicional que incluye información de configuración a leer (parsear) por una librería.
 * Vistazo a varios tipos https://hackersandslackers.com/simplify-your-python-projects-configuration/
 * `configparser` librería estándar para ficheros `.ini`
-> Ejemplo código ISI https://github.com/isi-ies-group/meteocheck/blob/master/meteocheck/meteocheck_meteo_stations_example.ini
+    * Ejemplo código ISI https://github.com/isi-ies-group/meteocheck/blob/master/meteocheck/meteocheck_meteo_stations_example.ini
 * `pyaml` librería externa para ficheros `.yaml`
-> Ejemplo código ISI https://github.com/isi-ies-group/pygeonica/blob/master/pygeonica/pygeonica_config.yaml
+    * Ejemplo código ISI https://github.com/isi-ies-group/pygeonica/blob/master/pygeonica/pygeonica_config.yaml
 
 ### Packaging (crear librerías)
 Generar paquetes de Python, para instalar desde `pip`
