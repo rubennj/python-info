@@ -9,9 +9,9 @@
   * [Anaconda](#anaconda)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
-  * [Numpy](#numpy)
-  * [Matplotlib](#matplotlib)
-  * [Pandas](#pandas)
+  * [Numpy](#numpy-cheatsheet)
+  * [Matplotlib](#matplotlib-cheatsheet)
+  * [Pandas](#pandas-cheatsheet)
   * [PIL/Pillow](#pil-pillow)
 - [RECURSOS ON-LINE](#recursos-on-line)
   * [Cursos](#cursos)
@@ -78,11 +78,14 @@ Las más usuales son:
 ### Scipy
 Funciones de cálculo numérico, muchas tienen la misma sintáxis que en Matlab
 	p. ej. trapz()
+
 ### Numpy [[cheatsheet]](Numpy_Python_Cheat_Sheet.pdf)
 Implementa tipo de dato 'array' que permite operaciones vectoriales, tipo Matlab. No necesita la sintaxis con punto típica de Matlab (.*, ...). Una vez creado (o leido) el objeto Numpy la sintaxis es transparente.
 	p. ej. a = b * c, donde b y c son vectores.
+
 ### Matplotlib [[cheatsheet]](<matplotlib cheatsheets.pdf>)
 Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque similar, algunas cosas son más claras.
+
 ### Pandas [[cheatsheet]](Pandas_Cheat_Sheet.pdf)
 Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis muy intuitiva y simplificada, especialmente interesante para leer datos.
 p. ej.
@@ -94,7 +97,8 @@ mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserd
 ```
 eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
 ```
-* OJO: https://stackoverflow.com/questions/27673231/why-should-i-make-a-copy-of-a-data-frame-in-pandas
+* OJO copia DataFrames: https://stackoverflow.com/questions/27673231/why-should-i-make-a-copy-of-a-data-frame-in-pandas
+* Tricks & Features You May Not Know: https://realpython.com/python-pandas-tricks/
 
 ### PIL/Pillow
 Manipulación de imágenes.
