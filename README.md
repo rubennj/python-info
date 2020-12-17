@@ -196,10 +196,12 @@ No es realmente una herramienta si no una buena práctica. La idea es limpiar y 
 https://realpython.com/python-refactoring/
 
 #### GitHub
-Repositorio distribuido para código y datos. Utilizar herramienta [`GitHub Desktop`](https://desktop.github.com/) para sincronizar repositorio local y remoto.
+Repositorio distribuido para código y datos usando protocolo `git`. Utilizar herramienta [`GitHub Desktop`](https://desktop.github.com/) para sincronizar repositorio local y remoto.
 * 10 min tutorial https://guides.github.com/activities/hello-world/
 * Tutorial https://www.edureka.co/blog/how-to-use-github/
 * Introdución a GitHub https://github.com/oscarperpinan/intro_github
+* A successful Git branching model https://nvie.com/posts/a-successful-git-branching-model/
+* How to Write a Git Commit Message https://chris.beams.io/posts/git-commit/
 > ##### pre-commit
 > Antes de formalizar un `commit` [pre-commit](https://pre-commit.com/) ejecuta automáticamente tareas tales como un linter para formatear el código.
 
