@@ -140,6 +140,7 @@ http://scipy-lectures.org/
 * Presentar datos+código en vivo.
 * IDE en web. Dos versiones: _classic_ y _lab_
 * Basado en ficheros notebook (.ipynb)
+* Conceptos básicos https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb
 1. https://jupyter.org/
 2. https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
 3. https://github.com/losc-tutorial/quickview - Repositorio con Jupyter notebook sobre gravitational waves
