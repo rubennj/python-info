@@ -227,3 +227,4 @@ Archivo externo adicional que incluye información de configuración a leer (par
 Generar paquetes de Python, para instalar desde `pip`
 * Tutorial https://python-packaging.readthedocs.io/
 * Incluso se puede instalar desde un repositorio: `pip install --upgrade git+https://github.com/isi-ies-group/cpvlib.git`
+* `Cookicutter` es una herramienta para generar el andamio de una librería: https://towardsdatascience.com/cookiecutter-creating-custom-reusable-project-templates-fc85c8627b07
