@@ -184,6 +184,7 @@ PEP 257
 * https://docs.python-guide.org/writing/documentation/
 
 * Ejemplo: pydocstyle (_comprueba docstring_), docformatter (_formatea docstring_)
+* Info sobre documentar https://realpython.com/documenting-python-code/
 
 #### Testing
 * https://realpython.com/python-testing/
