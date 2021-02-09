@@ -32,6 +32,7 @@
     + [Argparse](#argparse)
     + [Archivo Config](#archivo-config)
     + [Packaging](#packaging-crear-librerías)
+    * [Archivo README](#archivo-readme)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -229,3 +230,6 @@ Generar paquetes de Python, para instalar desde `pip`
 * Tutorial https://python-packaging.readthedocs.io/
 * Incluso se puede instalar desde un repositorio: `pip install --upgrade git+https://github.com/isi-ies-group/cpvlib.git`
 * `Cookicutter` es una herramienta para generar el andamio de una librería: https://towardsdatascience.com/cookiecutter-creating-custom-reusable-project-templates-fc85c8627b07
+
+### Archivo README
+Consejos https://dbader.org/blog/write-a-great-readme-for-your-github-project
