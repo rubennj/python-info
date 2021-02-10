@@ -161,6 +161,7 @@ La librería más potente y que permite crear gráficas bien acabadas para publi
 * Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
 * Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
 * Guía oficial (más densa) https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
+* MPL Cheatsheets (interesante el de Tips&Tricks) https://github.com/matplotlib/cheatsheets
 
 PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizaciones rápidas de DF/Series. Para pulir la gráfica hay que llamar a métodos directamente de MPL.
 * Tutorial básico (rápido) http://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
