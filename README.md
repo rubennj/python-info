@@ -73,6 +73,7 @@ https://www.anaconda.com/distribution/
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
 * Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres).
+> No usar `import *` https://www.geeksforgeeks.org/why-import-star-in-python-is-a-bad-idea/
 * Si no están ya instaladas, se tienen que instalar desde la linea de comandos de Windows `cmd` con el comando `conda install "nombre_libreria"`. Si no estuviera en los repositorios de Anaconda, habría que instalarlas mediante `conda install conda-forge::"nombre_libreria"` o finalmente con `pip install "nombre_libreria"`. Si no existe como librería, se debería usar directamente como paquete de Python, en un fichero *.py
 * Control de librerias: Se pueden actualizar, instalar, desinstalar desde linea de comandos: 'cmd'.p. ej. 'conda update spyder'
 
