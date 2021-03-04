@@ -20,6 +20,7 @@
     + [Jupyter](#jupyter)
     	- [Binder](#binder)
     	- [Google Colab](#google-colab)
+    	- [JupyterHub](#jupyterhub)
     + [Dash](#dash)
   * [Graphing (Matplotlib)](#graphing--matplotlib-)
   * [Herramientas para codigo](#herramientas-para-codigo)
@@ -148,7 +149,7 @@ http://scipy-lectures.org/
 2. https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
 3. https://github.com/losc-tutorial/quickview - Repositorio con Jupyter notebook sobre gravitational waves
 
-* Existen varias alternativas para la ejecución en entorno web: 
+* Existen varias alternativas para la ejecución en entorno web: https://www.dataschool.io/cloud-services-for-jupyter-notebook/
 
 ##### Binder
 * Crea espacio de trabajo en un servidor remoto para ejectuar en vivo Jupyter notebooks, sin necesidad de instalación local.
@@ -157,9 +158,15 @@ http://scipy-lectures.org/
 2. https://mybinder.org/ - Web app para lanzarlo
 
 ##### Google Colab
-* Similar a Binder. La carga del servicio es bastante más rápida.
+* Similar a Binder. La carga del servicio es notablemente más rápida.
+* Orientado y con recursos de Google para ejecutar Machine/Deep Learning
 * https://colab.research.google.com/
 * Ejemplo tutorial https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l01c01_introduction_to_colab_and_python.ipynb
+
+##### JupyterHub
+* Permite crear tu propia nube para servir notebooks, como Binder en privado.
+* Muy interesante para clase, evita que los estudiantes se tengan que instalar nada.
+* https://jupyter.org/hub
 
 #### Dash
 Servidor web para presentar datos interactivamente (by Plot.ly)
