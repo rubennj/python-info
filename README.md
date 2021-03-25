@@ -50,6 +50,8 @@ Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se de
 * Se puede ejecutar de forma interactiva, lanzando `python` desde la línea de comando `cmd` sin ningún parámetro.
 * Se pueden crear ejecutables mediante librerías.
 #### Python vs Matlab
+https://realpython.com/matlab-vs-python/
+* Python es un lenguaje de propósito general, mientras que Matlab está enfocado a ingeniería.
 * Ambas sintaxis son muy parecidas.
 * Ambos se pueden usar en entornos REPL (https://elpythonista.com/python-shell-repl) muy útiles para prototipar.
 * Python es mucho más potente, capaz de realizar más cosas y en general más rápido que Matlab.
