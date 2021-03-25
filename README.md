@@ -50,13 +50,14 @@ Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se de
 * Se puede ejecutar de forma interactiva, lanzando `python` desde la línea de comando `cmd` sin ningún parámetro.
 * Se pueden crear ejecutables mediante librerías.
 #### Python vs Matlab
-https://realpython.com/matlab-vs-python/
+https://realpython.com/matlab-vs-python/  
 * Python es un lenguaje de propósito general, mientras que Matlab está enfocado a ingeniería.
 * Ambas sintaxis son muy parecidas.
 * Ambos se pueden usar en entornos REPL (https://elpythonista.com/python-shell-repl) muy útiles para prototipar.
 * Python es mucho más potente, capaz de realizar más cosas y en general más rápido que Matlab.
 * Python aun tiene partes que no están tan maduras como Matlab (IDE, algunas librerías vs toolkits), pero suficiente como para trabajar sin problemas. Otras partes (potencia lenguaje, librerías) superan con creces a Matlab.
-* Pyton no tiene una alternativa madura a Simulink.
+* Pyton no tiene una alternativa madura a Simulink.  
+Son interoperables: https://es.mathworks.com/matlabcentral/fileexchange/72852-using-matlab-with-python?s_tid=FX_rc1_behav
 
 ### Spyder
 Es un IDE (Integrated Development Environment), el programa para escribir/ejecutar scripts, manipular datos y depurar código.
