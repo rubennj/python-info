@@ -42,20 +42,30 @@
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
 ### Python [[cheatsheet]](python-cheatsheet_mementopython3-english.pdf)
-Es el lenguaje. Sintaxis muy parecida a Matlab.
-* Mucho más potente y capaz de realizar más cosas y en general más rápido que Matlab.
-* El lenguaje y las librerías son libres y gratuitas. Muchas se actualizan rápido y de verdad.
-* En su conjunto aun tiene partes que no están tan maduras como Matlab, pero suficiente como para trabajar sin problemas. Otras partes superan con creces a Matlab.	
-* Es un lenguaje basado en scripts. No se tiene que compilar para ejecutarlo, como Matlab cuando se ejecuta en terminal. Se puede ejecutar un script en otro PC muy fácilmente y editarlo de forma instantánea. Especialmente conveniente para controlar tareas automáticas. Matlab tiene que compilarlo y es muy engorroso.
-* Se puede ejecutar de forma interactiva, lanzando `python` desde cmd sin ningún parámetro.
-* Se pueden crear ejecutables.
+Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se detallan más adelante.
+* Es un lenguaje multiplataforma, más compacto, más legible, más fácil de depurar pero menos rápido, menos voluminoso y con menos control de la máquina respecto a C/C++.
+* El lenguaje y las librerías son libres y gratuitas. Las más importantes son ya estándares de facto y se actualizan rápido.
+* Es un lenguaje interpretado, basado en scripts. No se tiene que compilar para que se ejecute el código.
+* Se puede ejecutar un script en otro PC muy fácilmente y editarlo de forma instantánea. Especialmente conveniente para controlar tareas automáticas.
+* Se puede ejecutar de forma interactiva, lanzando `python` desde la línea de comando `cmd` sin ningún parámetro.
+* Se pueden crear ejecutables mediante librerías.
+#### Python vs Matlab
+* Ambas sintaxis son muy parecidas.
+* Ambos se pueden usar en entornos REPL (https://elpythonista.com/python-shell-repl) muy útiles para prototipar.
+* Python es mucho más potente, capaz de realizar más cosas y en general más rápido que Matlab.
+* Python aun tiene partes que no están tan maduras como Matlab (IDE, algunas librerías vs toolkits), pero suficiente como para trabajar sin problemas. Otras partes (potencia lenguaje, librerías) superan con creces a Matlab.
+* Pyton no tiene una alternativa madura a Simulink.
 
 ### Spyder
 Es un IDE (Integrated Development Environment), el programa para escribir/ejecutar scripts, manipular datos y depurar código.
 * Es el que hay que EJECUTAR para trabajar!
+* https://www.spyder-ide.org/
 
 ### IPython
-Es una versión mejorada de la terminal de Python. Básicamente aparece en Spyder como terminal por defecto. Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
+Es una versión mejorada de la terminal de Python.  
+* Básicamente aparece en Spyder como terminal por defecto, aunque se puede lanzar desde `cmd` con el comando `ipython`.
+* Permite autocompletado, sugiere nombres de funciones, lleva control de historial, número de líneas...
+* https://ipython.readthedocs.io/en/stable/interactive/tutorial.html
 
 ### Conda
 Gestor de librerías. Permite instalar, quitar, actualizar, listar.
@@ -118,7 +128,9 @@ eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='
 Manipulación de imágenes.
 
 ## RECURSOS ON-LINE
-Listado de links con información útil para Python. _El repositorio contiene documentos también útiles_
+_Este repositorio [https://github.com/isi-ies-group/python-info] contiene documentos útiles. Ver listados de fichero arriba_.  
+
+Listado de links con información útil para Python:
 
 * Nature - Programming: Pick up Python - A powerful programming language with huge community support
 https://www.nature.com/news/programming-pick-up-python-1.16833
