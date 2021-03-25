@@ -59,7 +59,14 @@ Es una versión mejorada de la terminal de Python. Básicamente aparece en Spyde
 
 ### Conda
 Gestor de librerías. Permite instalar, quitar, actualizar, listar.
-Mediante el comando `conda install <libreria>` desde `cmd` se instalan las librerías necesarias. 
+Mediante el comando `conda install <libreria>` desde `cmd` se instalan las librerías necesarias.
+#### Canales
+Es la fuente de donde vienen los paquetes. Existe un canal `default` que se toma por defecto y pertenece/actualiza Anaconda, pero que no siempre está actualizado al 100%.
+#### Conda-forge
+Es un canal estándar de facto mantenido por la comunidad que es actualizado por los propios desarrolladores de las librerías.
+* Usar este canal por defecto ejecutando estos comnados:  
+`conda config --add channels conda-forge`  
+`conda config --set channel_priority strict`
 
 ### Miniconda
 *_OPCIÓN RECOMENDADA_*
@@ -71,12 +78,14 @@ https://docs.conda.io/en/latest/miniconda.html
 ### Anaconda
 Es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada, mejor usar miniconda.
 https://www.anaconda.com/distribution/
-	
+* Es también el nombre de la empresa que crea y mantiene esta distribución.
+
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
 * Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres).
 > No usar `import *` https://www.geeksforgeeks.org/why-import-star-in-python-is-a-bad-idea/
 * Si no están ya instaladas, se tienen que instalar desde la linea de comandos de Windows `cmd` con el comando `conda install "nombre_libreria"`. Si no estuviera en los repositorios de Anaconda, habría que instalarlas mediante `conda install conda-forge::"nombre_libreria"` o finalmente con `pip install "nombre_libreria"`. Si no existe como librería, se debería usar directamente como paquete de Python, en un fichero *.py
+* ACTUALIZACION! Usar canal `conda-forge` por defecto (ver [Conda](#conda))
 * Control de librerias: Se pueden actualizar, instalar, desinstalar desde linea de comandos: 'cmd'.p. ej. 'conda update spyder'
 
 Las más usuales son:
