@@ -190,6 +190,7 @@ http://scipy-lectures.org/
 ##### JupyterHub
 * Permite crear tu propia nube para servir notebooks, como Binder en privado.
 * Muy interesante para clase, evita que los estudiantes se tengan que instalar nada.
+* Se puede alojar en recursos propios de nube o físicos: [The Littlest JupyterHub](https://tljh.jupyter.org/en/latest/index.html)
 * https://jupyter.org/hub
 
 #### Dash
@@ -210,6 +211,7 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 ### Herramientas para codigo
 * (Breve) Listado herramientas https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
 * Sitio con cursos https://software-carpentry.org/lessons/index.html
+* Tutorial con plantilla para empaquetar, probar, documentar y publicar código Python científico [Bootstrap a Scientific Python Library](https://nsls-ii.github.io/scientific-python-cookiecutter/index.html)
 
 #### Linters - Code syle/quality
 PEP8
@@ -227,6 +229,7 @@ PEP 257
 
 * Ejemplo: pydocstyle (_comprueba docstring_), docformatter (_formatea docstring_)
 * Info sobre documentar https://realpython.com/documenting-python-code/
+* Info Markdown https://www.markdownguide.org/cheat-sheet/
 
 #### Testing
 * https://realpython.com/python-testing/
@@ -275,3 +278,6 @@ Generar paquetes de Python, para instalar desde `pip`
 
 ### Archivo README
 Consejos https://dbader.org/blog/write-a-great-readme-for-your-github-project
+
+### REST API
+* https://realpython.com/flask-connexion-rest-api/
