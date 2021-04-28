@@ -224,7 +224,6 @@ PEP8
 
 #### Documentation
 PEP 257
-* https://realpython.com/documenting-python-code/
 * https://docs.python-guide.org/writing/documentation/
 
 * Ejemplo: pydocstyle (_comprueba docstring_), docformatter (_formatea docstring_)
