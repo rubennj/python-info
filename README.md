@@ -61,8 +61,9 @@ Son interoperables: https://es.mathworks.com/matlabcentral/fileexchange/72852-us
 
 ### Spyder
 Es un IDE (Integrated Development Environment), el programa para escribir/ejecutar scripts, manipular datos y depurar código.
-* Es el que hay que EJECUTAR para trabajar!
-* https://www.spyder-ide.org/
+* Es el que hay que EJECUTAR para trabajar! - https://www.spyder-ide.org/
+* Instalación recomendada [2021-04], usar [instalador individual](http://docs.spyder-ide.org/current/installation.html#standalone-installers-ref). No recomiendan instalarlo como paquete de conda dentro del environment de trabajo por defecto, usando [`conda install spyder`](http://docs.spyder-ide.org/current/installation.html).
+ 	* Hay que apuntar Spyder al environment de conda que usemos por defecto con todos los paquetes que usemos de forma **explícita**: http://docs.spyder-ide.org/current/faq.html#using-existing-environment
 
 ### IPython
 Es una versión mejorada de la terminal de Python.  
