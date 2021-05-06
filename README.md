@@ -257,6 +257,9 @@ Repositorio distribuido para código y datos usando protocolo `git`. Utilizar he
 > Para evitar sincronizar ciertos archivos hay que rellenar el fichero `.gitignore`. Ver https://swcarpentry.github.io/git-novice-es/06-ignore/
 > Si ya se han sincronizado previamente, usar `git rm -r --cached [file]`
 
+> ##### GitHub Actions
+> Permite automatizar eventos dentro de GH. Ver https://www.adictosaltrabajo.com/2020/10/28/introduccion-a-github-actions-sintaxis-basica/
+
 #### Argparse
 Librería estándar para crear CLI (Command Line Interface)
 * Tutorial https://realpython.com/command-line-interfaces-python-argparse
