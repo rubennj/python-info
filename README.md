@@ -31,6 +31,7 @@
     + [GitHub](#github)
       - [pre-commit](#pre-commit)
       - [.gitignore](#gitignore)
+      - [GitHub Actions](#github-actions)
     + [Argparse](#argparse)
     + [Archivo Config](#archivo-config)
     + [Packaging](#packaging-crear-librerías)
