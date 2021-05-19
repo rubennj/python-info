@@ -22,6 +22,11 @@
     	- [Google Colab](#google-colab)
     	- [JupyterHub](#jupyterhub)
     + [Dash](#dash)
+    + [Streamlit](#streamlit)
+  * [App hosting](#app-hosting)
+    + [Heroku](#heroku)
+    + [PythonAnywhere](#pythonanywhere)
+    + [Trinket](#trinket)
   * [Graphing (Matplotlib)](#graphing--matplotlib-)
   * [Herramientas para codigo](#herramientas-para-codigo)
     + [Linters - Code syle/quality](#linters---code-syle-quality)
@@ -196,8 +201,20 @@ http://scipy-lectures.org/
 * https://jupyter.org/hub
 
 #### Dash
-Servidor web para presentar datos interactivamente (by Plot.ly)
+Servidor web para generar un dashboard: permite presentar datos interactivamente (by Plot.ly)
 https://dash-gallery.plotly.host/Portal/ (Galería)
+
+#### Streamlit
+Similar a Dash pero más sencillo y menos maduro.
+https://streamlit.io/
+* Ofrece un servicio de repositorio y ejecución de apps creadas con esta tecnología: https://streamlit.io/sharing
+
+### App hosting
+Permite correr las apps en la web. Streamlit Sharing lo permite para sus propias apps
+
+#### Heroku
+#### PythonAnywhere
+#### Trinket
 
 ### Graphing (Matplotlib)
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
