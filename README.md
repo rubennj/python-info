@@ -234,12 +234,15 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 
 #### Linters - Code syle/quality
 PEP8
+* https://pep8.org/
 * https://realpython.com/python-code-quality/
 * https://realpython.com/python-pep8/
 * https://docs.python-guide.org/writing/style/
 
 * Ejemplo: pycodestyle (_comprueba código_), autopep8 (_formatea código_)
 > Desde consola spyder: `!autopep8 -i file.py` o `!autopep8 -i .`
+
+* Comprobación nombres objetos: variables, clases,... https://github.com/PyCQA/pep8-naming
 
 #### Documentation
 PEP 257
