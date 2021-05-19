@@ -55,6 +55,14 @@ Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se de
 * Se puede ejecutar un script en otro PC muy fácilmente y editarlo de forma instantánea. Especialmente conveniente para controlar tareas automáticas.
 * Se puede ejecutar de forma interactiva, lanzando `python` desde la línea de comando `cmd` sin ningún parámetro.
 * Se pueden crear ejecutables mediante librerías.
+
+#### Terminología
+https://realpython.com/lessons/scripts-modules-packages-and-libraries/#description
+* A **script** is a Python file that’s intended to be run directly. When you run it, it should do something. This means that scripts will often contain code written outside the scope of any classes or functions.
+* A **module** is a Python file that’s intended to be imported into scripts or other modules. It often defines members like classes, functions, and variables intended to be used in other files that import it.
+* A **package** is a collection of related modules that work together to provide certain functionality. These modules are contained within a folder and can be imported just like any other modules. This folder will often contain a special __init__ file that tells Python it’s a package, potentially containing more modules nested within subfolders
+* A **library** is an umbrella term that loosely means “a bundle of code.” These can have tens or even hundreds of individual modules that can provide a wide range of functionality.
+
 #### Python vs Matlab
 https://realpython.com/matlab-vs-python/  
 * Python es un lenguaje de propósito general, mientras que Matlab está enfocado a ingeniería.
