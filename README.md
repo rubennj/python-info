@@ -79,6 +79,12 @@ Es un IDE (Integrated Development Environment), el programa para escribir/ejecut
 * Instalación recomendada [2021-04], usar [instalador individual](http://docs.spyder-ide.org/current/installation.html#standalone-installers-ref). No recomiendan instalarlo como paquete de conda dentro del environment de trabajo por defecto, usando [`conda install spyder`](http://docs.spyder-ide.org/current/installation.html).
  	* Hay que apuntar Spyder al environment de conda que usemos por defecto con todos los paquetes que usemos de forma **explícita**: http://docs.spyder-ide.org/current/faq.html#using-existing-environment
 
+#### Otros IDEs interesantes.
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [PyCharm](https://www.jetbrains.com/es-es/pycharm/)
+* [Gitpod](https://www.gitpod.io/)
+* Jupyter, ver sección [Jupyter](#jupyter)
+
 ### IPython
 Es una versión mejorada de la terminal de Python.  
 * Básicamente aparece en Spyder como terminal por defecto, aunque se puede lanzar desde `cmd` con el comando `ipython`.
