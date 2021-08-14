@@ -145,8 +145,9 @@ https://www.anaconda.com/distribution/
 * Paso a funciones https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
 
 ### Estilo
-PEP 8 - Ver sección [linter](#linter)
-https://docs.python-guide.org/writing/style
+PEP 8
+* Ver sección [linter](#linter)
+* https://docs.python-guide.org/writing/style
 
 ### Modismos (idioms)
 * Idiomatic Python https://jerry-git.github.io/learn-python3/#idiomatic-python
