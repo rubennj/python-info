@@ -29,11 +29,11 @@
     + [JupyterHub](#jupyterhub)
   * [Dash](#dash)
   * [Streamlit](#streamlit)
-- [App hosting](#app-hosting)
+- [APP HOSTING](#app-hosting)
   * [Heroku](#heroku)
   * [PythonAnywhere](#pythonanywhere)
   * [Trinket](#trinket)
-- [Graphing (Matplotlib)](#graphing--matplotlib-)
+- [GRAPHING (Matplotlib)](#graphing--matplotlib-)
 - [HERRAMIENTAS PARA CODIGO](#herramientas-para-codigo)
   * [Linters - Code syle/quality](#linters---code-syle-quality)
   * [Documentation](#documentation)
@@ -67,10 +67,10 @@ Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se de
 
 #### Terminologia
 https://realpython.com/lessons/scripts-modules-packages-and-libraries/#description
-* A **script** is a Python file that’s intended to be run directly. When you run it, it should do something. This means that scripts will often contain code written outside the scope of any classes or functions.
-* A **module** is a Python file that’s intended to be imported into scripts or other modules. It often defines members like classes, functions, and variables intended to be used in other files that import it.
-* A **package** is a collection of related modules that work together to provide certain functionality. These modules are contained within a folder and can be imported just like any other modules. This folder will often contain a special __init__ file that tells Python it’s a package, potentially containing more modules nested within subfolders
-* A **library** is an umbrella term that loosely means “a bundle of code.” These can have tens or even hundreds of individual modules that can provide a wide range of functionality.
+* Un **script** es un archivo de Python destinado a ser ejecutado directamente. Cuando se ejecuta, debe hacer algo. Esto significa que los scripts contendrán a menudo código escrito fuera del ámbito de cualquier clase o función.
+* Un **módulo** es un archivo de Python destinado a ser importado en scripts u otros módulos. A menudo define miembros como clases, funciones y variables destinadas a ser utilizadas en otros archivos que lo importan.
+* Un **paquete** es una colección de módulos relacionados que trabajan juntos para proporcionar cierta funcionalidad. Estos módulos están contenidos en una carpeta y pueden ser importados como cualquier otro módulo. Esta carpeta contendrá a menudo un archivo especial __init__ que indica a Python que es un paquete, que puede contener más módulos anidados en subcarpetas
+* Una **biblioteca** es un término paraguas que significa vagamente "un paquete de código". Estos pueden tener decenas o incluso cientos de módulos individuales que pueden proporcionar una amplia gama de funcionalidad.
 
 #### Python vs Matlab
 https://realpython.com/matlab-vs-python/  
@@ -242,14 +242,14 @@ Similar a Dash pero más sencillo y menos maduro.
 https://streamlit.io/
 * Ofrece un servicio de repositorio y ejecución de apps creadas con esta tecnología: https://streamlit.io/sharing
 
-## App hosting
+## APP HOSTING
 Permite correr las apps en la web. Streamlit Sharing lo permite para sus propias apps
 
 ### Heroku
 ### PythonAnywhere
 ### Trinket
 
-## Graphing (Matplotlib)
+## GRAPHING (Matplotlib)
 La librería más potente y que permite crear gráficas bien acabadas para publicaciones es MATPLOTLIB (MPL):
 * Tutorial básico (rápido) https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596
 * Guía (más completa y clara) https://realpython.com/python-matplotlib-guide/
