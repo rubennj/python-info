@@ -24,6 +24,8 @@
   * [Generadores (yield)](#generadores--yield-)
   * [args y kwargs](#args-y-kwargs)
   * [Redondeo](#redondeo)
+  * [Excepciones](#excepciones)
+  * [Clases](#clases)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -184,6 +186,13 @@ https://docs.python-guide.org/writing/style
 >>> round(8.5)
 8
 ```
+
+### Excepciones
+* https://realpython.com/python-exceptions/
+
+### Clases
+* https://realpython.com/python3-object-oriented-programming/
+* Data classes: https://realpython.com/python-data-classes/
 
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
