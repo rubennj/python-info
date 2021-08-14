@@ -13,7 +13,16 @@
   * [Anaconda](#anaconda)
 - [LENGUAJE PYTHON](#lenguaje-python)
   * [Variables](#variables)
-  * [Modismos](#modismos)
+  * [Estilo](#estilo)
+  * [Modismos (idioms)](#modismos--idioms-)
+  * [Context manager & with](#context-manager---with)
+  * [List comprehension](#list-comprehension)
+  * [Zip - iteracion paralela](#zip---iteracion-paralela)
+  * [Funcion lambda](#funcion-lambda)
+  * [Decorador funciones](#decorador-funciones)
+  * [Operador ternario (condicional)](#operador-ternario--condicional-)
+  * [Generadores (yield)](#generadores--yield-)
+  * [args y kwargs](#args-y-kwargs)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -131,12 +140,38 @@ https://www.anaconda.com/distribution/
 * Mapa mental tipos de datos https://devopedia.org/images/article/41/4737.1513052765.jpg
 * Paso a funciones https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
 
-### Modismos
-Idioms, idiomatic Python
-* Idiomatic loops https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_loops.html
-* Idiomatic dicts https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_dicts.html
-* Idiomatic misc1 https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_misc1.html
-* Idiomatic misc2 https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_misc2.html
+### Estilo
+PEP 8 - Ver sección [linter](#linter)
+https://docs.python-guide.org/writing/style
+
+### Modismos (idioms)
+* Idiomatic Python https://jerry-git.github.io/learn-python3/#idiomatic-python
+* Consejos con idioms https://hackernoon.com/going-beyond-the-idiomatic-python-a321b6c6a5e6
+* Ejemplos peor->mejor https://gist.github.com/0x4D31/f0b633548d8e0cfb66ee3bea6a0deff9
+
+### Context manager & with
+* https://realpython.com/python-with-statement/
+
+### List comprehension
+* https://realpython.com/list-comprehension-python/
+
+### Zip - iteracion paralela
+* https://realpython.com/python-zip-function/
+
+### Funcion lambda
+* https://realpython.com/python-lambda/
+
+### Decorador funciones
+* https://realpython.com/primer-on-python-decorators/
+
+### Operador ternario (condicional)
+* https://realpython.com/python-conditional-statements/#conditional-expressions-pythons-ternary-operator
+
+### Generadores (yield)
+* https://realpython.com/introduction-to-python-generators/
+
+### args y kwargs
+* https://realpython.com/python-kwargs-and-args/
 
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
