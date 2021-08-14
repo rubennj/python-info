@@ -23,6 +23,7 @@
   * [Operador ternario (condicional)](#operador-ternario--condicional-)
   * [Generadores (yield)](#generadores--yield-)
   * [args y kwargs](#args-y-kwargs)
+  * [Redondeo](#redondeo)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -172,6 +173,16 @@ https://docs.python-guide.org/writing/style
 
 ### args y kwargs
 * https://realpython.com/python-kwargs-and-args/
+
+### Redondeo
+* https://realpython.com/python-rounding/
+* Python redondea según el convenio tipico en computación según el IEEE 754: por proximidad unbiased, prefiriendo en el caso límite los resultados pares.
+```
+>>> round(7.5)
+8
+>>> round(8.5)
+8
+```
 
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
