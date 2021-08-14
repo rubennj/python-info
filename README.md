@@ -37,6 +37,7 @@
     + [Binder](#binder)
     + [Google Colab](#google-colab)
     + [JupyterHub](#jupyterhub)
+    + [JupyterLite](#jupyterlite)
   * [Dash](#dash)
   * [Streamlit](#streamlit)
 - [APP HOSTING](#app-hosting)
@@ -278,6 +279,11 @@ http://scipy-lectures.org/
 * Muy interesante para clase, evita que los estudiantes se tengan que instalar nada.
 * Se puede alojar en recursos propios de nube o físicos: [The Littlest JupyterHub](https://tljh.jupyter.org/en/latest/index.html)
 * https://jupyter.org/hub
+
+#### JupyterLite
+* https://github.com/jupyterlite/jupyterlite
+* Corre totalmente en el navegador: no requiere servidor!
+* Se puede alojar directamente en p. ej. GitHub Pages
 
 ### Dash
 Servidor web para generar un dashboard: permite presentar datos interactivamente (by Plot.ly)
