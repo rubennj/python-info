@@ -26,6 +26,7 @@
   * [Redondeo](#redondeo)
   * [Excepciones](#excepciones)
   * [Clases](#clases)
+  * [Break, continue y pass](#break,-continue-y-pass)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -160,6 +161,19 @@ PEP 8
 ### List comprehension
 * https://realpython.com/list-comprehension-python/
 
+```python
+sentencia = "el rápido zorro marrón salta sobre el perro perezoso"
+palabras = sentencia.split()
+longitud_palabra = []
+for palabra in palabras:
+      if palabra != "el":
+          longitud_palabra.append(len(palabra))
+```
+vs
+```python
+longitud_palabras = [len(palabra) for palabra in palabras if palabra != "el"]
+```
+
 ### Zip - iteracion paralela
 * https://realpython.com/python-zip-function/
 
@@ -181,7 +195,7 @@ PEP 8
 ### Redondeo
 * https://realpython.com/python-rounding/
 * Python redondea según el convenio tipico en computación según el IEEE 754: por proximidad unbiased, prefiriendo en el caso límite los resultados pares.
-```
+```python
 >>> round(7.5)
 8
 >>> round(8.5)
@@ -194,6 +208,9 @@ PEP 8
 ### Clases
 * https://realpython.com/python3-object-oriented-programming/
 * Data classes: https://realpython.com/python-data-classes/
+
+### Break, continue y pass
+* https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3-es
 
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
