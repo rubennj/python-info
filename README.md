@@ -1,5 +1,5 @@
 # Información sobre Python
-- [GLOSARIO](#glosario)
+- [UNIVERSO PYTHON CIENTIFICO](#universo-python-cientifico)
   * [Python](#python-cheatsheet)
     + [Terminologia](#terminologia)
     + [Python vs Matlab](#python-vs-matlab)
@@ -11,6 +11,9 @@
     + [Conda-forge](#conda-forge)
   * [Miniconda](#miniconda)
   * [Anaconda](#anaconda)
+- [LENGUAJE PYTHON](#lenguaje-python)
+  * [Variables](#variables)
+  * [Modismos](#modismos)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -50,7 +53,7 @@
 
 _Este repositorio [https://github.com/isi-ies-group/python-info] contiene documentos útiles. Ver listados de fichero arriba_.  
 
-## GLOSARIO
+## UNIVERSO PYTHON CIENTIFICO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
 ### Python [[cheatsheet]](python-cheatsheet_mementopython3-english.pdf)
@@ -119,6 +122,21 @@ https://docs.conda.io/en/latest/miniconda.html
 Es una distribución de Python adecuada al mundo científico con muchas librerías. Resulta muy pesada, mejor usar miniconda.
 https://www.anaconda.com/distribution/
 * Es también el nombre de la empresa que crea y mantiene esta distribución.
+
+## LENGUAJE PYTHON
+
+### Variables
+* Explicación nombres variables https://nedbatchelder.com/text/names.html
+* Tipos de datos https://pynative.com/wp-content/uploads/2021/02/python-data-types.jpg
+* Mapa mental tipos de datos https://devopedia.org/images/article/41/4737.1513052765.jpg
+* Paso a funciones https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
+
+### Modismos
+Idioms, idiomatic Python
+* Idiomatic loops https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_loops.html
+* Idiomatic dicts https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_dicts.html
+* Idiomatic misc1 https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_misc1.html
+* Idiomatic misc2 https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_misc2.html
 
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
