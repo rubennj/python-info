@@ -1,19 +1,23 @@
 # Información sobre Python
-- [UNIVERSO PYTHON CIENTIFICO](#universo-python-cientifico)
+- [GLOSARIO](#glosario)
   * [Python](#python-cheatsheet)
     + [Terminologia](#terminologia)
     + [Python vs Matlab](#python-vs-matlab)
   * [IDE - Spyder](#ide---spyder)
-    + [Otros IDEs interesantes.](#otros-ides-interesantes)
+    + [Otros IDEs interesantes](#otros-ides-interesantes)
   * [IPython](#ipython)
   * [Conda](#conda)
     + [Canales](#canales)
     + [Conda-forge](#conda-forge)
   * [Miniconda](#miniconda)
   * [Anaconda](#anaconda)
-- [LENGUAJE PYTHON](#lenguaje-python)
+- [CURSOS](#cursos)
+- [TUTORIALES](#tutoriales)
+- [LENGUAJE - PECULIARIDADES](#lenguaje---peculiaridades)
   * [Variables](#variables)
   * [Estilo](#estilo)
+  * [Formateo texto](#formateo_texto)
+  * [Bucles](#bluces)
   * [Modismos (idioms)](#modismos--idioms-)
   * [Context manager & with](#context-manager---with)
   * [List comprehension](#list-comprehension)
@@ -33,8 +37,6 @@
   * [Matplotlib](#matplotlib-cheatsheet)
   * [Pandas](#pandas-cheatsheet)
   * [PIL-Pillow](#pil-pillow)
-- [CURSOS](#cursos)
-- [TUTORIALES](#tutoriales)
 - [HERRAMIENTAS PARA DATOS](#herramientas-para-datos)
   * [Jupyter](#jupyter)
     + [Binder](#binder)
@@ -67,7 +69,7 @@
 
 _Este repositorio [https://github.com/isi-ies-group/python-info] contiene documentos útiles. Ver listados de fichero arriba_.  
 
-## UNIVERSO PYTHON CIENTIFICO
+## GLOSARIO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
 ### Python [[cheatsheet]](python-cheatsheet_mementopython3-english.pdf)
@@ -102,7 +104,7 @@ Es un IDE (Integrated Development Environment), el programa para escribir/ejecut
 * Instalación recomendada [2021-04], usar [instalador individual](http://docs.spyder-ide.org/current/installation.html#standalone-installers-ref). No recomiendan instalarlo como paquete de conda dentro del environment de trabajo por defecto, usando [`conda install spyder`](http://docs.spyder-ide.org/current/installation.html).
  	* Hay que apuntar Spyder al environment de conda que usemos por defecto con todos los paquetes que usemos de forma **explícita**: http://docs.spyder-ide.org/current/faq.html#using-existing-environment
 
-#### Otros IDEs interesantes.
+#### Otros IDEs interesantes
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [PyCharm](https://www.jetbrains.com/es-es/pycharm/)
 * [Gitpod](https://www.gitpod.io/)
@@ -137,7 +139,28 @@ Es una distribución de Python adecuada al mundo científico con muchas librerí
 https://www.anaconda.com/distribution/
 * Es también el nombre de la empresa que crea y mantiene esta distribución.
 
-## LENGUAJE PYTHON
+## CURSOS
+* Curso muy ameno, para aprender el lenguaje Python haciendo, hay app
+https://www.sololearn.com/Course/Python/
+* Software Carpentry realiza talleres sobre programación y publican el material
+https://software-carpentry.org/lessons/index.html
+
+## TUTORIALES
+* Buen tutorial general 
+https://docs.python-guide.org/
+
+* Tutoriales temáticos para (casi) todas las características/opciones/librerias del lenguaje
+https://realpython.com/
+
+* Guia Python Científico
+http://scipy-lectures.org/
+
+* Transitioning from MATLAB to Python
+1. https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
+2. https://hub.gke.mybinder.org/user/gestaltrevision-thon_for_visres-ones2sck/notebooks/Part3/Part3_Scientific_Python.ipynb
+3. https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Paper.pdf
+
+## LENGUAJE - PECULIARIDADES
 
 ### Variables
 * Explicación nombres variables https://nedbatchelder.com/text/names.html
@@ -149,6 +172,14 @@ https://www.anaconda.com/distribution/
 PEP 8
 * Ver sección [linter](#linter)
 * https://docs.python-guide.org/writing/style
+
+### Formateo texto
+* https://realpython.com/python-string-formatting/
+
+### Bucles
+Pythonic loops (olvídate de los loops con índice!)
+* https://dbader.org/blog/pythonic-loops
+* https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
 ### Modismos (idioms)
 * Idiomatic Python https://jerry-git.github.io/learn-python3/#idiomatic-python
@@ -236,11 +267,11 @@ Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque simil
 Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis muy intuitiva y simplificada, especialmente interesante para leer datos.
 p. ej.
 * Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos primeras columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
-```
+```python
 mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserdatetime, parse_dates=[[0, 1]], index_col=0, na_values='-')
 ```
 * Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
-```
+```python
 eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
 ```
 * Introducción: https://realpython.com/pandas-python-explore-dataset/
@@ -252,31 +283,6 @@ Manipulación de imágenes.
 
 * Nature - Programming: Pick up Python - A powerful programming language with huge community support
 https://www.nature.com/news/programming-pick-up-python-1.16833
-
-## CURSOS
-* Curso muy ameno, para aprender el lenguaje Python haciendo, hay app
-https://www.sololearn.com/Course/Python/
-* Software Carpentry realiza talleres sobre programación y publican el material
-https://software-carpentry.org/lessons/index.html
-
-## TUTORIALES
-* Buen tutorial general 
-https://docs.python-guide.org/
-
-* Tutoriales temáticos para (casi) todas las características/opciones/librerias del lenguaje
-https://realpython.com/
-
-* Guia Python Científico
-http://scipy-lectures.org/
-
-* Transitioning from MATLAB to Python
-1. https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
-2. https://hub.gke.mybinder.org/user/gestaltrevision-thon_for_visres-ones2sck/notebooks/Part3/Part3_Scientific_Python.ipynb
-3. https://www.enthought.com/wp-content/uploads/Enthought-MATLAB-to-Python-White-Paper.pdf
-
-* Pythonic loops (olvídate de los loops con índice!)
-1. https://dbader.org/blog/pythonic-loops
-2. https://mlwhiz.com/blog/2019/04/22/python_forloops/
 
 ## HERRAMIENTAS PARA DATOS
 ### Jupyter
