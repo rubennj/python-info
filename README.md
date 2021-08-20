@@ -270,6 +270,10 @@ p. ej.
 ```python
 mad11 = pd.read_csv(path + 'madrid2011.txt', delimiter='\t', date_parser=parserdatetime, parse_dates=[[0, 1]], index_col=0, na_values='-')
 ```
+* Lee varios ficheros y los concatena (one-liner)
+```python
+pd.concat([pd.read_csv(name) for name in glob.glob("*.csv")])
+```
 * Toma la variable B y Bmj de mad11 (valores minutales) y devuelve la suma resampleada a frecuencia mensual.
 ```python
 eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
