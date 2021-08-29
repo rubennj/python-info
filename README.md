@@ -31,6 +31,7 @@
   * [Excepciones](#excepciones)
   * [Clases](#clases)
   * [Break, continue y pass](#break,-continue-y-pass)
+  * [Encadenamiento operadores comparacion](encadenamiento-operadores-comparacion)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -242,6 +243,9 @@ longitud_palabras = [len(palabra) for palabra in palabras if palabra != "el"]
 
 ### Break, continue y pass
 * https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3-es
+
+### Encadenamiento operadores comparacion
+* https://www.geeksforgeeks.org/chaining-comparison-operators-python/
 
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
