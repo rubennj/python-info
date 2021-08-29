@@ -64,7 +64,7 @@
   * [Archivo Config](#archivo-config)
 - [PACKAGING (crear librerías)](#packaging--crear-librer-as-)
 - [Archivo README](#archivo-readme)
-- [REST API](#rest-api)
+- [API](#api)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -430,5 +430,8 @@ Generar paquetes de Python, para instalar desde `pip`
 ## Archivo README
 Consejos https://dbader.org/blog/write-a-great-readme-for-your-github-project
 
-## REST API
-* https://realpython.com/flask-connexion-rest-api/
+## API
+* Info general: https://realpython.com/python-api/
+* Crear API: https://realpython.com/fastapi-python-web-apis/
+* REST API: https://realpython.com/flask-connexion-rest-api/
+* Listado APIs: https://realpython.com/python-api/#further-reading
