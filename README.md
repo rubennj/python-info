@@ -1,6 +1,6 @@
 # Información sobre Python
 - [GLOSARIO](#glosario)
-  * [Python](#python-cheatsheet)
+  * [Python](#python-cheatsheet-1-cheatsheet-2)
     + [Terminologia](#terminologia)
     + [Python vs Matlab](#python-vs-matlab)
   * [IDE - Spyder](#ide---spyder)
@@ -36,7 +36,7 @@
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
   * [Matplotlib](#matplotlib-cheatsheet)
-  * [Pandas](#pandas-cheatsheet)
+  * [Pandas](#pandas-cheatsheet-1-cheatsheet-2	)
   * [PIL-Pillow](#pil-pillow)
 - [HERRAMIENTAS PARA DATOS](#herramientas-para-datos)
   * [Jupyter](#jupyter)
@@ -73,7 +73,7 @@ _Este repositorio [https://github.com/isi-ies-group/python-info] contiene docume
 ## GLOSARIO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
 
-### Python [[cheatsheet]](python-cheatsheet_mementopython3-english.pdf)
+### Python [[cheatsheet 1]](python-cheatsheet_mementopython3-english.pdf) [[cheatsheet 2]](<python_cheat_sheet by Arianne Colton and Sean Chen.pdf>)
 Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se detallan más adelante.
 * Es un lenguaje multiplataforma, más compacto, más legible, más fácil de depurar pero menos rápido, menos voluminoso y con menos control de la máquina respecto a C/C++.
 * El lenguaje y las librerías son libres y gratuitas. Las más importantes son ya estándares de facto y se actualizan rápido.
@@ -267,7 +267,7 @@ Implementa tipo de dato 'array' que permite operaciones vectoriales, tipo Matlab
 ### Matplotlib [[cheatsheet]](<matplotlib cheatsheets.pdf>)
 Objetos y funciones para graficar, tiene sintaxis similar a Matlab. Aunque similar, algunas cosas son más claras.
 
-### Pandas [[cheatsheet]](Pandas_Cheat_Sheet.pdf)
+### Pandas [[cheatsheet 1]](Pandas_Cheat_Sheet.pdf)[[cheatsheet 2]](<pandas_cheat_sheet by Arianne Colton and Sean Chen.pdf>)
 Objetos tipo hoja_cálculo y métodos anexos. Especialmente útil para datos tipo tabla y aun más interesante para Series Temporales. Tiene una sintaxis muy intuitiva y simplificada, especialmente interesante para leer datos.
 p. ej.
 * Lee fichero .csv, delimitado por tabs, toma como índice de tabla las dos primeras columnas (fecha y hora) y los valores '-' son tomados como 'NaN'
