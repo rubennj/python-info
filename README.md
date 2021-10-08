@@ -424,6 +424,7 @@ Archivo externo adicional que incluye información de configuración a leer (par
 ## PACKAGING (crear librerias)
 Generar paquetes de Python, para instalar desde `pip`
 * Tutorial https://python-packaging.readthedocs.io/
+* https://www.blog.pythonlibrary.org/2021/09/23/python-101-how-to-create-a-python-package
 * Incluso se puede instalar desde un repositorio: `pip install --upgrade git+https://github.com/isi-ies-group/cpvlib.git`
 * `Cookicutter` es una herramienta para generar el andamio de una librería: https://towardsdatascience.com/cookiecutter-creating-custom-reusable-project-templates-fc85c8627b07
 
