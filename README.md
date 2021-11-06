@@ -97,7 +97,7 @@ https://realpython.com/matlab-vs-python/
 * Python es mucho más potente, capaz de realizar más cosas y en general más rápido que Matlab.
 * Python aun tiene partes que no están tan maduras como Matlab (IDE, algunas librerías vs toolkits), pero suficiente como para trabajar sin problemas. Otras partes (potencia lenguaje, librerías) superan con creces a Matlab.
 * Pyton no tiene una alternativa madura a Simulink.  
-Son interoperables: https://es.mathworks.com/matlabcentral/fileexchange/72852-using-matlab-with-python?s_tid=FX_rc1_behav
+* Son interoperables: https://es.mathworks.com/matlabcentral/fileexchange/72852-using-matlab-with-python?s_tid=FX_rc1_behav
 
 ### IDE - Spyder
 Es un IDE (Integrated Development Environment), el programa para escribir/ejecutar scripts, manipular datos y depurar código.
