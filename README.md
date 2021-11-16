@@ -90,7 +90,9 @@ https://realpython.com/lessons/scripts-modules-packages-and-libraries/#descripti
 * Una **biblioteca** es un término paraguas que significa vagamente "un paquete de código". Estos pueden tener decenas o incluso cientos de módulos individuales que pueden proporcionar una amplia gama de funcionalidad.
 
 #### Python vs Matlab
-https://realpython.com/matlab-vs-python/  
+* https://realpython.com/matlab-vs-python/  
+* https://numpy.org/doc/stable/user/numpy-for-matlab-users.html
+
 * Python es un lenguaje de propósito general, mientras que Matlab está enfocado a ingeniería.
 * Ambas sintaxis son muy parecidas.
 * Ambos se pueden usar en entornos REPL (https://elpythonista.com/python-shell-repl) muy útiles para prototipar.
