@@ -32,6 +32,7 @@
   * [Clases](#clases)
   * [Break, continue y pass](#break,-continue-y-pass)
   * [Encadenamiento operadores comparacion](encadenamiento-operadores-comparacion)
+  * [Underscore - uso sintactico](underscore---uso-sintactico)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -249,6 +250,9 @@ longitud_palabras = [len(palabra) for palabra in palabras if palabra != "el"]
 ### Encadenamiento operadores comparacion
 * https://www.geeksforgeeks.org/chaining-comparison-operators-python/
 
+### Underscore - uso sintactico
+* https://dbader.org/blog/meaning-of-underscores-in-python
+
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
 * Hay que importar al principio de cada script cada libreria explícitamente, para mantener un control de los nombres de cada librería (espacio de nombres).
@@ -368,7 +372,7 @@ PEP8
 * https://realpython.com/python-pep8/
 * https://docs.python-guide.org/writing/style/
 
-* Ejemplo: pycodestyle (_comprueba código_), autopep8 (_formatea código_)
+* Ejemplo: pycodestyle/flake8 (_comprueba código_), autopep8 (_formatea código_)
 > Desde consola spyder: `!autopep8 -i file.py` o `!autopep8 -i .`
 
 * Comprobación nombres objetos: variables, clases,... https://github.com/PyCQA/pep8-naming
