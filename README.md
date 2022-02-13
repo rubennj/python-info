@@ -364,6 +364,7 @@ PANDAS de hecho implementa métodos .plot() que llaman a MPL para visualizacione
 * (Breve) Listado herramientas https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code
 * Sitio con cursos https://software-carpentry.org/lessons/index.html
 * Tutorial con plantilla para empaquetar, probar, documentar y publicar código Python científico [Bootstrap a Scientific Python Library](https://nsls-ii.github.io/scientific-python-cookiecutter/index.html)
+* Tutorial gestión proyecto Python https://jacobtomlinson.dev/series/creating-an-open-source-python-project-from-scratch/
 
 ### Linters - Code syle/quality
 PEP8
@@ -425,7 +426,7 @@ Archivo externo adicional que incluye información de configuración a leer (par
 * `configparser` librería estándar para ficheros `.ini`
     * Ejemplo código ISI https://github.com/isi-ies-group/meteocheck/blob/master/meteocheck/meteocheck_meteo_stations_example.ini
 * `pyaml` librería externa para ficheros `.yaml`
-    * Ejemplo código ISI https://github.com/isi-ies-group/pygeonica/blob/master/pygeonica/pygeonica_config.yaml
+    * Ejemplo código ISI https://github.com/isi-ies-group/pygeonica/blob/master/pygeonica/sensores_config.yaml
 
 ## PACKAGING (crear librerias)
 Generar paquetes de Python, para instalar desde `pip`
