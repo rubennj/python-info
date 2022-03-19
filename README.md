@@ -167,7 +167,8 @@ http://scipy-lectures.org/
 ## LENGUAJE - PECULIARIDADES
 
 ### Variables
-* Explicación nombres variables https://nedbatchelder.com/text/names.html
+* Tutorial variables https://realpython.com/python-variables/
+* Nombres y referencias https://nedbatchelder.com/text/names.html
 * Tipos de datos https://pynative.com/wp-content/uploads/2021/02/python-data-types.jpg
 * Mapa mental tipos de datos https://devopedia.org/images/article/41/4737.1513052765.jpg
 * Paso a funciones https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
