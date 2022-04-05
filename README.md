@@ -132,7 +132,8 @@ Es un canal estándar de facto mantenido por la comunidad que es actualizado por
 `conda config --set channel_priority strict`
 
 ### Miniconda
-*_OPCIÓN RECOMENDADA_*
+*_OPCIÓN RECOMENDADA_*  
+Conda vs Miniconda vs Anaconda https://ichi.pro/assets/images/max/724/1*O5Jgl-KFuvUyujAZhXHYlQ.png  
 Es una distribución de Python mínima, que solo instala Python + conda (gestor de librerias).
 https://docs.conda.io/en/latest/miniconda.html
 * Ver la última versión en la web!
