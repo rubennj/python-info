@@ -47,6 +47,7 @@
     + [JupyterLite](#jupyterlite)
   * [Dash](#dash)
   * [Streamlit](#streamlit)
+  * [PyScript](#pyscript)
 - [APP HOSTING](#app-hosting)
   * [Heroku](#heroku)
   * [PythonAnywhere](#pythonanywhere)
@@ -343,6 +344,11 @@ https://dash-gallery.plotly.host/Portal/ (Galería)
 Similar a Dash pero más sencillo y menos maduro.
 https://streamlit.io/
 * Ofrece un servicio de repositorio y ejecución de apps creadas con esta tecnología: https://streamlit.io/sharing
+
+### PyScript
+Framework que permite a los usuarios crear aplicaciones ricas de Python en el navegador utilizando la interfaz de HTML (como PHP)
+* https://www.genbeta.com/actualidad/ano-python-navegador-este-nuevo-proyecto-permite-ejecutar-python-tu-html
+* https://github.com/pyscript/pyscript/blob/main/GETTING-STARTED.md
 
 ## APP HOSTING
 Permite correr las apps en la web. Streamlit Sharing lo permite para sus propias apps
