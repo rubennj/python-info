@@ -84,7 +84,7 @@ Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se de
 * Se puede ejecutar de forma interactiva, lanzando `python` desde la línea de comando `cmd` sin ningún parámetro.
 * Se pueden crear ejecutables mediante librerías.
 
-[Python en 100 segundos - video](https://youtu.be/x7X9w_GIm1s)
+[Python en 100 segundos (video)](https://youtu.be/x7X9w_GIm1s)
 
 #### Terminologia
 https://realpython.com/lessons/scripts-modules-packages-and-libraries/#description
