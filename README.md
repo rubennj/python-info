@@ -157,6 +157,9 @@ https://software-carpentry.org/lessons/index.html
 * Buen tutorial general 
 https://docs.python-guide.org/
 
+* Python 101 (en un Jupyter Notebook)
+https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition/blob/master/ch_01/python_101.ipynb
+
 * Tutoriales temáticos para (casi) todas las características/opciones/librerias del lenguaje
 https://realpython.com/
 
