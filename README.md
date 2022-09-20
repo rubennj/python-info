@@ -70,7 +70,7 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-_Este repositorio [https://github.com/isi-ies-group/python-info] contiene documentos útiles. Ver listados de fichero arriba_.  
+_El presente repositorio [https://github.com/isi-ies-group/python-info] contiene documentos útiles. Ver listados de fichero arriba_.  
 
 ## GLOSARIO
 Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
