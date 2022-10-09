@@ -397,7 +397,8 @@ PEP 257
 
 * Ejemplo: pydocstyle (_comprueba docstring_), docformatter (_formatea docstring_)
 * Info sobre documentar https://realpython.com/documenting-python-code/
-* Ejemplo docstrings _Numpy-style_ https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html
+* Ejemplo docstrings (Sphinx extension) 1 _Numpy-style_ https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html
+* Ejemplo docstrings (Sphinx extension) 2 _Numpydoc_ https://numpydoc.readthedocs.io/en/latest/format.html
 
 ### Testing
 * https://realpython.com/python-testing/
