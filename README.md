@@ -152,6 +152,8 @@ https://www.anaconda.com/distribution/
 https://www.sololearn.com/Course/Python/
 * Software Carpentry realiza talleres sobre programación y publican el material
 https://software-carpentry.org/lessons/index.html
+* Clean code (libro referente) basado en Python
+https://github.com/zedr/clean-code-python
 
 ## TUTORIALES
 * Buen tutorial general 
