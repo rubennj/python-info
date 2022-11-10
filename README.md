@@ -115,6 +115,7 @@ Es un IDE (Integrated Development Environment), el programa para escribir/ejecut
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [PyCharm](https://www.jetbrains.com/es-es/pycharm/)
 * [Gitpod](https://www.gitpod.io/)
+* [VSCode online](https://vscode.dev/) y la versión para GitHub (se abre desde cada repo en <>Code - Codespaces)
 * Jupyter, ver sección [Jupyter](#jupyter)
 
 ### IPython
