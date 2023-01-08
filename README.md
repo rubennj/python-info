@@ -452,6 +452,7 @@ Generar paquetes de Python, para instalar desde `pip`
 * Incluso se puede instalar desde un repositorio: `pip install --upgrade git+https://github.com/isi-ies-group/cpvlib.git`
 * `Cookicutter` es una herramienta para generar el andamio de una librería: https://towardsdatascience.com/cookiecutter-creating-custom-reusable-project-templates-fc85c8627b07
 * https://semver.org/ Semantic Versioning: control del número de versión
+* Estructurar y nombrar paquetes http://blog.nicholdav.info/four-tips-structuring-research-python/
 
 ## Archivo README
 Consejos https://dbader.org/blog/write-a-great-readme-for-your-github-project
