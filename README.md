@@ -186,7 +186,9 @@ http://scipy-lectures.org/
 ### Estilo
 PEP 8
 * Ver sección [linter](#linter)
-* https://docs.python-guide.org/writing/style
+* Guia https://docs.python-guide.org/writing/style
+* Guia https://realpython.com/python-pep8/
+* Cheatsheet https://cheatography.com/jmds/cheat-sheets/python-pep8-style-guide/
 
 ### Formateo texto
 * https://realpython.com/python-string-formatting/
