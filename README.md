@@ -302,6 +302,7 @@ pd.concat([pd.read_csv(name) for name in glob.glob("*.csv")])
 eff_esp11_men = mad11.Bmj.resample('M', how='sum') / mad11.B.resample('M', how='sum')
 ```
 * Introducción: https://realpython.com/pandas-python-explore-dataset/
+* Libro de Wes McKinney (creador): https://wesmckinney.com/book/
 * OJO copia DataFrames: https://stackoverflow.com/questions/27673231/why-should-i-make-a-copy-of-a-data-frame-in-pandas
 * Tricks & Features You May Not Know: https://realpython.com/python-pandas-tricks/
 
