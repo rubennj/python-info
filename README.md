@@ -159,13 +159,12 @@ https://github.com/zedr/clean-code-python
 ## TUTORIALES
 * Buen tutorial general 
 https://docs.python-guide.org/
-
+* Libro con énfasis en pensar a programar que usa notebooks *"The aim of this book is to teach you coding in Python while developing computational thinking"*
+https://learnpythonwithjupyter.com/
 * Python 101 (en un Jupyter Notebook)
 https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition/blob/master/ch_01/python_101.ipynb
-
 * Tutoriales temáticos para (casi) todas las características/opciones/librerias del lenguaje
 https://realpython.com/
-
 * Guia Python Científico
 http://scipy-lectures.org/
 
