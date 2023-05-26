@@ -73,7 +73,7 @@
 _El presente repositorio [https://github.com/isi-ies-group/python-info] contiene documentos útiles. Ver listados de fichero arriba_.  
 
 ## GLOSARIO
-Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que conoce Matlab.
+Breve explicación de nombres relacionados con los proyectos que sostienen el mundo Científico-Python (SciPy) desde un punto de vista de una persona que realiza computación y/o conoce Matlab.
 
 ### Python [[cheatsheet 1]](python-cheatsheet_mementopython3-english.pdf) [[cheatsheet 2]](<python_cheat_sheet by Arianne Colton and Sean Chen.pdf>)
 Es el lenguaje, a diferencia de otros conceptos del entorno **Python** que se detallan más adelante.
@@ -112,8 +112,9 @@ Es un IDE (Integrated Development Environment), el programa para escribir/ejecut
  	* Hay que apuntar Spyder al environment de conda que usemos por defecto con todos los paquetes que usemos de forma **explícita**: http://docs.spyder-ide.org/current/faq.html#using-existing-environment
 
 #### Otros IDEs interesantes
-* [Visual Studio Code](https://code.visualstudio.com/)
 * [PyCharm](https://www.jetbrains.com/es-es/pycharm/)
+	* Muy interesante la version "Community" gratuita
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Gitpod](https://www.gitpod.io/)
 * [VSCode online](https://vscode.dev/) y la versión para GitHub (se abre desde cada repo en <>Code - Codespaces)
 * Jupyter, ver sección [Jupyter](#jupyter)
@@ -167,6 +168,7 @@ https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition/blob
 https://realpython.com/
 * Guia Python Científico
 http://scipy-lectures.org/
+* [Crear ejemplo mínimo y reproducible](https://stackoverflow.com/help/minimal-reproducible-example)
 
 * Transitioning from MATLAB to Python
 1. https://leportella.com/english/2018/07/22/10-tips-matlab-to-python.html
