@@ -322,6 +322,7 @@ https://www.nature.com/news/programming-pick-up-python-1.16833
 1. https://jupyter.org/
 2. https://mybinder.org/v2/gh/bloomberg/bqplot/1da9ae2fffcbe317b6b27f6ed4f6d6c8db283452 - Ejemplo en acción
 3. https://github.com/losc-tutorial/quickview - Repositorio con Jupyter notebook sobre gravitational waves
+4. https://github.com/jupyter/jupyter/wiki - Repositorio general
 
 * Existen varias alternativas para la ejecución en entorno web: https://www.dataschool.io/cloud-services-for-jupyter-notebook/
 
