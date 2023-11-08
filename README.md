@@ -354,9 +354,13 @@ Servidor web para generar un dashboard: permite presentar datos interactivamente
 https://dash-gallery.plotly.host/Portal/ (Galería)
 
 ### Streamlit
-Similar a Dash pero más sencillo y menos maduro.
+Similar a Dash pero más sencillo aunque menos complejo.
 https://streamlit.io/
 * Ofrece un servicio de repositorio y ejecución de apps creadas con esta tecnología: https://streamlit.io/sharing
+
+### Shiny
+Similar a Streamlit, de los creadores de RStudio
+https://shiny.posit.co/py/
 
 ### PyScript
 Framework que permite a los usuarios crear aplicaciones ricas de Python en el navegador utilizando la interfaz de HTML (como PHP)
