@@ -33,6 +33,7 @@
   * [Break, continue y pass](#break,-continue-y-pass)
   * [Encadenamiento operadores comparacion](encadenamiento-operadores-comparacion)
   * [Underscore - uso sintactico](underscore---uso-sintactico)
+  * [Acceso a variables de forma dinámica](acceso-a-variables-de-forma-dinamica)
 - [LIBRERIAS](#librerias)
   * [Scipy](#scipy)
   * [Numpy](#numpy-cheatsheet)
@@ -266,6 +267,9 @@ longitud_palabras = [len(palabra) for palabra in palabras if palabra != "el"]
 
 ### Underscore - uso sintactico
 * https://dbader.org/blog/meaning-of-underscores-in-python
+
+### Acceso a variables de forma dinamica
+* https://stackoverflow.com/questions/7969949/whats-the-difference-between-globals-locals-and-vars
 
 ## LIBRERIAS
 Para procesar, visualizar y representar datos existen librerías "científicas", como las de Matlab, aunque algunas son para obtener funcionalidades que vienen por defecto en Matlab.
