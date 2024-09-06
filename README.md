@@ -113,6 +113,8 @@ Es un IDE (Integrated Development Environment), el programa para escribir/ejecut
  	* Hay que apuntar Spyder al environment de conda que usemos por defecto con todos los paquetes que usemos de forma **explícita**: http://docs.spyder-ide.org/current/faq.html#using-existing-environment
 
 #### Otros IDEs interesantes
+* [Thonny](https://thonny.org/)
+	* IDE àra Python muy sencillo, ideal para principiantes
 * [PyCharm](https://www.jetbrains.com/es-es/pycharm/)
 	* Muy interesante la version "Community" gratuita
 * [Visual Studio Code](https://code.visualstudio.com/)
